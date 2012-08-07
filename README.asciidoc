@@ -1,0 +1,37 @@
+
+== DVCS Workflows
+
+
+In the last few years many developers have moved from old style
+version control systems like CVS and SVN to new Distributed Version
+Control Systems like HG and GIT. Which offer a lot more power and
+flexibility for development teams. 
+
+When using SVN (or CVS) there is really only one workflow that can be
+used. Everyone checks in to one central repository and every commit is
+exposed to every developer. Thus it is impossible to check in partial
+work without risking Breaking the build. In addition branches are a
+pain to use.
+
+However in making this transition many teams have not realized that
+there are many ways to setup a team workflow with a DVCS system. This
+book aims to explore some of those setups and explain why they work
+for that team. 
+
+This ebook may eventually turn into a real book. 
+
+If you want to contribute please fork this repo and send me a pull
+request. 
+
+
+
+++++++++++++++++++++++++++++++++++++++++
+<a rel="license"
+href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US"><img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br
+/>This work is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative
+Commons Attribution-ShareAlike 3.0 Unported License</a>.
+
+++++++++++++++++++++++++++++++++++++++++
