@@ -35,4 +35,12 @@ of the Linux kernel for over 20 years, and most of the senior
 lieutenants have probably been doing it for years. However the folks
 on the edges may come and go. It is quite possible to think that a
 company would write a device driver for some piece of hardware submit
-it to the correct person and then only change it once in a while.      
+it to the correct person and then only change it once in a while. 
+
+If you have a large team some variation on this workflow may make
+sense. In this case what would have to happen is that the project must
+be able to decompose into smaller components each of which would be
+the responsibility of a component leader. Those component leaders will
+have to forward their changes up to the global leader.
+  
+     
