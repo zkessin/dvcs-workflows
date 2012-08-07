@@ -9,4 +9,4 @@
 * link:workflow_planning.asciidoc.html[WorkFlow Planning]
 * link:linux_kernel.asciidoc.html[The Linux Kernel Team]
 * link:netcafe.asciidoc.html[Working in a Cafe] 
-
+* link:small_team.asciidoc.html[A Small Team]
