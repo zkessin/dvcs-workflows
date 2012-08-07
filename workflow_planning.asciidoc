@@ -1,1 +1,20 @@
 == Workflow Planning
+
+One of the great advantages of a DVCS is that there is not one
+prescribed workflow. Teams are free to figure out what will work best
+for them. The great disadvantage is that since there is not one
+prescribed workflow teams have to figure that out.
+
+In addition as a project and team evolve the ideal workflow may change
+over time. 
+
+
+[grid="rows",format="csv"]
+[options="header",cols="^,<,<s,<,>m"]
+|===========================
+
+Team Members ,Well Defined , Amorphous
+Location, Distributed, Co Located
+Time Frame, On Going, Limited
+
+|===========================
