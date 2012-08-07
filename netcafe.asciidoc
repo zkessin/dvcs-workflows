@@ -37,4 +37,12 @@ and having everyone fork it. When it comes time to integrate code it
 will be as simple as doing a pull from the correct repository and
 branch. 
 
- 
+
+To adapt this workflow is as easy as it could be. Create a repository
+where everyone can access it then have everyone clone it. 
+
+What will probably be more work is knowing when you have outgrown this
+workflow. At some point three guys sitting around a table with Pizza
+can turn into a real company which may require other types of
+workflow.
+
