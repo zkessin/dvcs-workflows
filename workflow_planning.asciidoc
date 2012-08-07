@@ -5,9 +5,6 @@ prescribed workflow. Teams are free to figure out what will work best
 for them. The great disadvantage is that since there is not one
 prescribed workflow teams have to figure that out.
 
-In addition as a project and team evolve the ideal workflow may change
-over time. 
-
 
 To figure out what type of work flow several questions will have to be
 asked. There are several attributes of a project and a team that have
@@ -26,5 +23,14 @@ Leadership, Formal, Informal
 
 Of course many projects will hit somewhere in the middle on one or
 those questions. The Linux Kernel team is probably pretty well defined
-at the core but may be a bit Amorphous at the edges. Each workflow
-presented here will start with a version of this chart for reference.  
+at the core but may be a bit amorphous at the edges. Each workflow
+presented here will start with a version of this chart for
+reference. 
+
+It should also be noted that a work flow does not have to stay the
+same over the course of a project. If three friends decide to create a
+startup when they first start it will probably be three people with
+laptops writing code late into the evenings over Pizza. If they are
+successful the team will grow and they may find that what they have
+been doing so far does not work well for them. In this case they will
+want to adapt to a new setup.   
