@@ -6,6 +6,7 @@
 === Chapters
 * link:using_git.asciidoc[Using Git]
 * link:using_hg.asciidoc[Using Hg]
+* link:dvcs_cloud_hosting.asciidoc[Cloud Hosting Services]
 * link:workflow_planning.asciidoc[WorkFlow Planning]
 * link:linux_kernel.asciidoc[The Linux Kernel Team]
 * link:netcafe.asciidoc[Working in a Cafe] 

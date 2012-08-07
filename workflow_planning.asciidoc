@@ -33,4 +33,9 @@ startup when they first start it will probably be three people with
 laptops writing code late into the evenings over Pizza. If they are
 successful the team will grow and they may find that what they have
 been doing so far does not work well for them. In this case they will
-want to adapt to a new setup.   
+want to adapt to a new setup. 
+
+The advantage of a DVCS is that these kind of changes are at least
+from a technical point of view pretty simple to handle. Repositories
+can be cloned and merged pretty much at will. 
+  
