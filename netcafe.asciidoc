@@ -1,6 +1,7 @@
 == Working in a Cafe
 
 
+
 [grid="rows",format="csv"]
 [options="header",cols="<s,<,<"]
 |===========================
@@ -11,3 +12,29 @@ Time Frame, On Going, *Limited*
 Team Size, Large, *Small*
 Leadership, Formal, *Informal*
 |===========================
+
+At the opposite end of the spectrum from the Linux Kernel team is the
+internet cafe or hackathon session. In this case we can assume 2-4
+people are going to be sitting down over a coffee or pizza to develop
+something. This would also apply to an early stage startup where
+people are writting code on laptops around a table, or a group of
+students working on their homework. 
+
+In this case the project probably does not have a formal leadership,
+and planning is probably done on a whiteboard. In addition a "Pull
+Request" is probably done by turning to your friend and saying "Hey
+grab my code" not via a formal Github Pull request. 
+
+On the plus side you have the advantage that everyone is probably in
+the same room and may well have known each other before the project
+started. 
+
+In this case a deep system like the Linux Kernel team uses makes no
+sense what so ever. What we want here is a limited number of peers
+each of whom can pull from the others. This can be done with the hg
+server option if you are using HG, or by creating a project on Github
+and having everyone fork it. When it comes time to integrate code it
+will be as simple as doing a pull from the correct repository and
+branch. 
+
+ 
