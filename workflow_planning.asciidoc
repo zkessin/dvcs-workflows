@@ -10,7 +10,7 @@ over time.
 
 
 [grid="rows",format="csv"]
-[options="header",cols="<s,<,< "]
+[options="header",cols="<s,<,<"]
 |===========================
 
 Team Members ,Well Defined , Amorphous
