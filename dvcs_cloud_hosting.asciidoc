@@ -1,8 +1,53 @@
 == DVCS Cloud Hosting
 
+One of the nice things about using a DVCS is that there are a number of very 
+mature cloud hosting services that can e used to host your code. These services provide
+an easy way to share project files with team memebers as well as a number of tools for managing those
+projects. Many of these services will in addition to hosting a GIT or HG repository will also include
+features like a WIKI or issue tracker that are not directly realated to the DVCS but can be very useful
+for management of a project. 
+
+In addition using a cloud hosting service provides an automatic off site backup, which can provide an 
+important level of safety for a small company that might not have procedures in place for backups or disaster recovery. 
+
 
 === GitHub
 
+The 10,000 pound gorrilla of the DVCS hosting world is github. This is for a good reason, github has
+been leading the effort to create new and innovative features for collaberative development. 
+
+In addition github provides a very robust API that allows developers to create applications that integrate
+with github. So for example when building applications with PhoneGap it is possible to point Phonegap at
+the correct github repository and then have phonegap simply pull the correct files from GitHub. 
+
+TODO: Talk about other tools that plug into github here
+
+Since this API is public there is no reason that a developer can use this to automate part of a
+workflow. 
+
+
 === Bitbucket
 
+In some ways Bitbucket is a clone of GitHub, however it has a few options that github lacks. First of
+all it support HG in addition to GIT so if your team wishes to use HG it is a strong possibility. In addition while
+github offers free public repositories it does require you to pay for private ones. With bitbucket you can have as many
+private repos as you want, however you can only share them with up to five other people before you have to pay for
+hosting. 
+
+
 === Self Hosting
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
