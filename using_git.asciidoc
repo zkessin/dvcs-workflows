@@ -1,2 +1,17 @@
-
 == Using Git
+
+For developers who are used to centralized version control systems like CVS or SVN
+transitioning to GIT requires a bit of a mental transition. Unlike SVN a commit in git is a
+two phase operation. When you do a *git commit* you are commiting to your local repository. It does
+not
+
+=== Creating a repository
+
+
+=== Basic Operations
+
+=== Remote Git
+
+=== Pushing and Pulling
+
+=== A Pull Request
