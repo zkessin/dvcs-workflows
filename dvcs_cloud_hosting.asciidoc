@@ -16,6 +16,10 @@ important level of safety for a small company that might not have procedures in 
 The 10,000 pound gorrilla of the DVCS hosting world is github. This is for a good reason, github has
 been leading the effort to create new and innovative features for collaberative development. 
 
+One of Github's goals is to provide a place for community for developers. There are a huge number
+of open source projects on github (Including this book) that can be forked and downloaded. In many ways
+github is providing the "View Source" feature for the current decade. 
+
 In addition github provides a very robust API that allows developers to create applications that integrate
 with github. So for example when building applications with PhoneGap it is possible to point Phonegap at
 the correct github repository and then have phonegap simply pull the correct files from GitHub. 
@@ -32,8 +36,9 @@ In some ways Bitbucket is a clone of GitHub, however it has a few options that g
 all it support HG in addition to GIT so if your team wishes to use HG it is a strong possibility. In addition while
 github offers free public repositories it does require you to pay for private ones. With bitbucket you can have as many
 private repos as you want, however you can only share them with up to five other people before you have to pay for
-hosting. 
-
+hosting. In addition bitbucket allows unlimited repos with all plans but limits how many people you can share with. If
+you don't need community or to share with more than a few people bitbucket can be a good option. For the
+case of a lone developer who just wants offsite backups this can be a good option.
 
 === Self Hosting
 
