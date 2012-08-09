@@ -18,6 +18,8 @@ there are many ways to setup a team workflow with a DVCS system. This
 book aims to explore some of those setups and explain why they work
 for that team. 
 
+link:book.asciidoc[Start Here]
+
 This ebook may eventually turn into a real book. 
 
 If you want to contribute please fork this repo and send me a pull
