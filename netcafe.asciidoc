@@ -39,7 +39,19 @@ branch.
 
 
 To adapt this workflow is as easy as it could be. Create a repository
-where everyone can access it then have everyone clone it. 
+where everyone can access it then have everyone clone it. Each member of the team 
+will commit to his or her own repository. When features need to be integrated changes are 
+pushed to a repository then changes can be shared between developers. In this case
+there is not a central authoratative version of the source, as in some of the other
+workflows, instead it will be up to members of the team to integrate reasonably often
+and not let things get too disorganised.
+
+This workflow also takes little or no infrastructure. Each user needs only his own computer
+and a way to share repositories. This can be done in several ways. First of all if you are using HG 
+you can use the built in http server with the _hg --serve_ command. If you are using git there
+is not quire as easy an option, however you can use a cloud hosting service like github or even share 
+the repositories with a file server or dropbox. 
+
 
 What will probably be more work is knowing when you have outgrown this
 workflow. At some point three guys sitting around a table with Pizza

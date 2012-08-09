@@ -12,7 +12,7 @@ Leadership, *Formal*, Informal
 |===========================
 
 
-When you have outgrown the previous workflow which resembles a fully
+When you have outgrown the previous workflow, which resembles a fully
 connected graph then the question is what to replace it with. There is
 not one correct way to do things at this stage but clearly there are
 some wrong ways. The Linux Kernel model is clearly overkill for a team

@@ -3,15 +3,54 @@
 For developers who are used to centralized version control systems like CVS or SVN
 transitioning to GIT requires a bit of a mental transition. Unlike SVN a commit in git is a
 two phase operation. When you do a *git commit* you are commiting to your local repository. It does
-not
+not publish those changes to anyone else. This has several benefits, first of all you can commit work
+in progress without woring about "breaking the build" so if you may want to roll back some changes you can 
+commit to a branch on your local repository.  It also means that you do not need internet access to commit 
+to your local repository. So if you are say writting a book on your laptop while on an international flight (which is 
+where this is being written) you can check in your changes to a local repository and then push them
+to a shared repository later. 
 
 === Creating a repository
 
+To create a repository use the command *git init* which will initialize an empty git repository. 
+Once a repository has been created files can be added to it and all other operations
 
 === Basic Operations
 
 === Remote Git
 
 === Pushing and Pulling
+In order to move a set of changes from one repository to another there are two options. You can *push* or *pull* the
+changes. A *push* takes the changes in the current repository and merges them into a foreign repository, which can
+be on a remote computer, or just a second directory on the same computer. 
+
+The other option is to do a *pull* which takes changes from another repository and moves them into yours. 
+
+In both cases these operations preserve the complete history of commits from the source repository. 
+
+In addition these operations can be be repeated. So Ann can pull changes from Bob who has pulled changes
+from Charlie, the final repository will have all three sets of changes. This is very different from sending
+a patch file where there is no change history.
 
 === A Pull Request
+
+Of course if Ann is going to pull changes from Bob she needs a way to know that she should pull his
+changes. If Ann and Bob are sitting next to each other Bob may just say to Ann "Ok pull my changes"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
