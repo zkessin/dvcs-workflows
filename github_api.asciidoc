@@ -1,1 +1,15 @@
 == Using the Github API
+
+Once you know how you want to setup a workflow you may wish to automate some or all of it,
+to make the life of your team easier. This way you can provide a set of tools, which can be run 
+from a command line, as plugins for your favorite tool, or as part of a web interface.
+
+Of course as git is a command line tool a shell script can be written that will do many of the standard 
+git operations. So for example you could take some raw data, populate some templates, commit them into
+git and push them up to a server. [TODO talk about github's web hosting]
+
+However if you want to do something more complex then you may wish to use the github api which lets
+you access many of the features of github programmaticly instead of doing them via the web interface. 
+
+=== TODO 2-3 examples
+
