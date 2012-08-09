@@ -8,14 +8,45 @@ in progress without woring about "breaking the build" so if you may want to roll
 commit to a branch on your local repository.  It also means that you do not need internet access to commit 
 to your local repository. So if you are say writting a book on your laptop while on an international flight (which is 
 where this is being written) you can check in your changes to a local repository and then push them
-to a shared repository later. 
+to a shared repository later when you flight lands.  
 
 === Creating a repository
 
 To create a repository use the command *git init* which will initialize an empty git repository. 
-Once a repository has been created files can be added to it and all other operations
+Once a repository has been created files can be added to it and all other operations performed.
 
 === Basic Operations
+
+The first thing you will wish to do after creating a repository is add some files for it
+to track. A repository without any files is not particularly useful, anymore than any other file system
+without files.
+
+To add files use the command *git add <file>* you can also add more than one file or a directory structure.
+
+==== Commiting Changes
+
+Once you have added files to a repository you will need to commit changes that have been made.
+to do this you use *git commit*. Git will open an editor to let you create a commit message. If you 
+want to supply one on the command line use *git commit -m "My Commit Message" file*. 
+
+Warning: unlike CVS and SVN if you do a commit in a subdirectory it will commit all files in the
+repository, not just those in the current repository.
+
+==== Using Git with Emacs or and IDE
+
+If you are using Emacs then the same VCS comands that work in CVS or SVN will work with git. So 
+you can use "C-v c c" to commit a file or "C-v C-d" to get a directory listing of what files have changed.
+
+If you are using Eclipse, XCode or another IDE then many of these also integrate with GIT. 
+
+==== Undoing changes
+
+==== 
+
+Removing Files
+
+=== Branching and Merging
+
 
 === Remote Git
 
