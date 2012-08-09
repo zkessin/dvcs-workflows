@@ -35,11 +35,27 @@ a patch file where there is no change history.
 === A Pull Request
 
 Of course if Ann is going to pull changes from Bob she needs a way to know that she should pull his
-changes. If Ann and Bob are sitting next to each other Bob may just say to Ann "Ok pull my changes"
+changes. If Ann and Bob are sitting next to each other Bob may just say to Ann "Ok pull my changes" and let 
+her know the URL of the repository and which branch the changes are on. 
+
+Howevver if you are more than three or four people and are not sitting all in
+one place you will probably want a more formal way to do this. To support this 
+GitHub has created a formal idea of a "Pull Request" which is a formal way for a user to
+let another user know that there are changes to be integrated. 
+
+If Ann has chagnes that she wishes Bob to take into his repository via GitHub (or bitbucket) she will 
+go to the web site for her repository on Github and then select which branch contains her changes and of course 
+who she wishes to send the change request too.  
+
+Bob will then be notified by Github that he has a pull request pending. Github notificiations can be configured
+to run over email, threw the website or via the API or a mobile app. 
+
+Bob will then have a chance to review the changes that Ann made and integrate them into his three or reject them.
 
 
+TODO: Add diagrams here
 
-
+All of this can also be done via the GITHub API, but that is somewhat beyond the scope of this book. 
 
 
 
