@@ -39,16 +39,66 @@ you can use "C-v c c" to commit a file or "C-v C-d" to get a directory listing o
 
 If you are using Eclipse, XCode or another IDE then many of these also integrate with GIT. 
 
+==== Branching and Merging
+
+Git makes dealing with branches much eaiser than svn or the like. Many git users will create a new
+branch for each feature. This also allows you to easily throw away changes did work well by simply abandoning
+the branch.
+
+To create a banch use *git branch <branchname>* this will create a new branch, however it will not 
+change repository to the new branch, do do that do *git checkout <branchname>*. Then edit and commit files as normal.
+
+
+WHen you wish to integrate the changes from a branch into the master branch do "git checkout master",
+which will bring you back to the master branch. To bring the chagnes from your branch into the master branch
+back do *git merge branchname* which will copy eveything into the master branch.
+
+In the case we have just covered the master branch has not changed while development was moving
+on the sidebranch. So at all git has to do is whats called a "fast-forward" where it can simply move the
+master branch ahead so that the current pointer for the respository points to the head commit for the branch. 
+
+In the case where two branches are being merged where one is not a direct ancestor of the other
+then git will have to do its best to merge the two groups of files. If there is direct conflict then it will
+force the user to figure it out.
+
 ==== Undoing changes
 
-==== 
+If you have made a change to a file and wish to undo it for some reaon
 
-Removing Files
+==== Removing Files
 
-=== Branching and Merging
+Often in the course of development a file or group of files will become irrelivent. Git of coruse allows you 
+to remove the file.  To remove a file from a git repository use *git rm filename* Then commit. 
+It will of course not remove the file from the history of the project, nor from other branches. 
+
+To move a file use "git mv oldfile newfile" which will remove the old file and add the new one, but
+will be able to preseve history. 
 
 
 === Remote Git
+
+What makes git so useful is that it has such wonderful features for working with
+repote repositories. There are for major commands for working with a remote repository. In this case a remote
+repoistory can be a different directory on the same computer or on a different computer somewhere else, or even on
+a thumbdrive.
+
+==== Clone
+
+To copy a remote repository use "git clone" this will copy the repository along with all all of its
+history to the local system. By default it will clone the "master" branch.  
+
+==== Push
+If you clone a remote repository and then make changes to it you will probably want to return those changes to 
+that repository. To do that use *git push* which takes changes from the local repository and copies them to the
+remote repository. 
+
+==== Pull
+
+
+
+
+
+==== Fetch
 
 === Pushing and Pulling
 In order to move a set of changes from one repository to another there are two options. You can *push* or *pull* the
