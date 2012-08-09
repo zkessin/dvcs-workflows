@@ -1,2 +1,14 @@
 == Using HG
 
+While GIT is the major DVCS in use Mucruial (also known as hg) is also being used 
+by a number of projects. In many cases the basic ideas of git and HG are pretty similar,
+so if you have been using one switching to the other should not require much of a learning
+curve. 
+
+NOTE: HG is the chemical symbol for murcury, so that is the short name. All those 
+of you who remember high school or college chemestry class didn't need to read this.
+
+There are of course a number of technical differences in the internal of git and HG but 
+they are beyond the scope of this work.
+
+
