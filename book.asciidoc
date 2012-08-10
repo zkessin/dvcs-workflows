@@ -8,6 +8,7 @@
 * link:using_hg.asciidoc[Using Hg]
 * link:dvcs_cloud_hosting.asciidoc[Cloud Hosting Services]
 * link:workflow_planning.asciidoc[WorkFlow Planning]
+* link:single_devloper.asciidoc[A Single Devloper]
 * link:linux_kernel.asciidoc[The Linux Kernel Team]
 * link:netcafe.asciidoc[Working in a Cafe] 
 * link:small_team.asciidoc[A Small Team]
