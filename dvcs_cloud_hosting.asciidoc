@@ -14,7 +14,10 @@ important level of safety for a small company that might not have procedures in 
 === GitHub
 
 The 10,000 pound gorrilla of the DVCS hosting world is github. This is for a good reason, github has
-been leading the effort to create new and innovative features for collaberative development. 
+been leading the effort to create new and innovative features for collaberative development. In addition
+github has in some ways become the social network for programmers, and the central place for development,
+having taken that crown from soruceforge several years ago.  
+
 
 
 ==== Community
@@ -22,8 +25,14 @@ been leading the effort to create new and innovative features for collaberative 
 One of Github's goals is to provide a place for community for developers. There are a huge number
 of open source projects on github (Including this book) that can be forked and downloaded. In many ways
 github is providing the "View Source" feature for the current decade. 
+on it. 
+
+Github has thousands of open source projects and countless developers using it.  Indead it is common to
+see "Fork me on github" on the web pages of open source projects. 
 
 If your goal is to build a public project github can form the natural home for your project.
+
+TODO: Expand
 
 ==== Github API and tools
 
@@ -34,7 +43,8 @@ the correct github repository and then have phonegap simply pull the correct fil
 TODO: Talk about other tools that plug into github here
 
 Since this API is public there is no reason that a developer can use this to automate part of a
-workflow. 
+workflow. for more details see link:github_api.asciidoc[Github API]
+
 
 ==== Pricing
 
