@@ -15,16 +15,17 @@ pain to use.
 
 However in making this transition many teams have not realized that
 there are many ways to setup a team workflow with a DVCS system. This
-book aims to explore some of those setups and explain why they work
+book aims to explore some of those setups and explain why they work or don't work
 for that team. 
 
 link:book.asciidoc[Start Here]
 
 This ebook may eventually turn into a real book. 
 
-If you want to contribute please fork this repo and send me a pull
-request. 
-
+If your team has done something different from what I have documented here 
+and you would like to contribute what you have done please write it up and send 
+a pull request. If your workflow did not work well for your team please write it 
+up anyway with why it didn't work so others can learn from your experience.  
 
 ++++++++++++++++++++++++++++++++++++++++
 <a rel="license"
