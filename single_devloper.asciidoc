@@ -1,0 +1,30 @@
+== Single Developer
+
+
+[grid="rows",format="csv"]
+[options="header",cols="<s,<,<"]
+|===========================
+
+Team Members, *Well Defined* , Amorphous
+Team Location, Distributed, *Co Located*
+Time Frame, *On Going*, Limited
+Team Size, Large, *Small*
+Leadership, *Formal*, Informal
+|===========================
+
+If you are devloping a project solo many of the compexities of a group are greatly simpified, 
+As there is only one team member she does not need to coridnate with team members. 
+
+There are two aspects of how to work on a project solo. How to best take advantage of the features
+of git such as branches and how to take best advantage of cloud hosting.
+
+I have found that while working solo or in a group using frequent small branches makes life simple. 
+For each new feature I create a new branch and do the development I want to do. When I have fished 
+the feature I merge it back into the main branch.
+
+I tend to use bitbucket for solo projects. Unlike github bitbucket allows you to have have unlimted 
+private repositories. As I don't care about community in this case giving up github's features doesn't bother
+me as I am working solo. 
+
+I do however want to use a cloud host as I may be using the project from several computes. I may wish to 
+have access to the files from my desktop, my laptop and a cloud server. t c
