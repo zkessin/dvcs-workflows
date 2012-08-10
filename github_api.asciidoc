@@ -13,3 +13,48 @@ you access many of the features of github programmaticly instead of doing them v
 
 === TODO 2-3 examples
 
+=== Building a Delta Debugger
+
+If you have a comprehensive set of tests it can be possible to to build a tool to allow you to
+very easily zero in on a fault if one gets introduced into the system. If someone has pushed a set of changes
+into a project then those chagnes may have affected dozens of files and hundreds of tests. In addition 
+there may have been 50 or more commits in that changeset. 
+
+If you know that tests start failing then it would be possible to roll back to the last commit which 
+all tests pass then by moving forward one commit at a time unitl a test fails. At that point we can 
+see which lines in which files have changed, and what lines of code are covered by the failing tests. 
+
+What we want is is to know is which lines are in common between the changes and the coverage of the failing 
+tests. If the commits are small changes and the coverage of each test is tight then in many cases the developer 
+can be directed to an area of 1-2 lines of code where the bug exists. 
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+=== A Build Tool
+
+=== CI with github
+
+If you are using github for hosting your product you may wish to do Continous Integration
+with your github repository. 
+
+
+TODO how to do this
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
