@@ -23,6 +23,17 @@ can push changes to integrate. It could also be linked into a CI
 system via hooks if that is what is desired. This is a good base but
 is probably not the full solution. 
 
+Unlike many of the other models in this book this one relies on pushing
+to a central repository. In this case each developer must be given
+write access to that repository. When he has changes he does a push
+and they are integrated.
+
+As a variation it would also be possible to have a central integration
+machine, and he will send that account a pull request. Then move to
+the integration machine merge the code and integrate the changes. In order 
+for this to work there should not be a backlog of changes and poeple should 
+integrate them as soon as possible. 
+
 One place that this can lead to problems is that if changes are not
 integrated on a regular basis then integration can become a nightmare,
 so make sure that code is integrated on a regular basis.
