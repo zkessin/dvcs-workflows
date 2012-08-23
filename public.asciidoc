@@ -1,4 +1,4 @@
-== A Public or Open Source Project
+=== A Public or Open Source Project
 
 [grid="rows",format="csv"]
 [options="header",cols="<s,<,<"]

@@ -1,4 +1,4 @@
-== A Workflow for a Small Team
+=== A Workflow for a Small Team
 
 [grid="rows",format="csv"]
 [options="header",cols="<s,<,<"]

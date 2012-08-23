@@ -8,6 +8,7 @@
 * link:using_hg.asciidoc[Using Hg]
 * link:dvcs_cloud_hosting.asciidoc[Cloud Hosting Services]
 * link:workflow_planning.asciidoc[WorkFlow Planning]
+* link:workflows.asciidoc[Workflows]
 * link:single_devloper.asciidoc[A Single Devloper]
 * link:single_devloper_with_client.asciidoc[A Single Devloper With a Client]
 * link:netcafe.asciidoc[Working in a Cafe] 

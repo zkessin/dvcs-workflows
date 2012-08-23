@@ -1,5 +1,4 @@
-== The Linux Kernel Team
-
+=== The Linux Kernel Team
 
 [grid="rows",format="csv"]
 [options="header",cols="<s,<,<"]
