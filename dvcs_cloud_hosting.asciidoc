@@ -1,36 +1,44 @@
 == DVCS Cloud Hosting
 
-One of the nice things about using a DVCS is that there are a number of very 
-mature cloud hosting services that can e used to host your code. These services provide
-an easy way to share project files with team memebers as well as a number of tools for managing those
-projects. Many of these services will in addition to hosting a GIT or HG repository will also include
-features like a WIKI or issue tracker that are not directly realated to the DVCS but can be very useful
-for management of a project. 
+One of the nice things about using a DVCS is that there are a number
+of very mature cloud hosting services that can e used to host your
+code. These services provide an easy way to share project files with
+team memebers as well as a number of tools for managing those
+projects. Many of these services will in addition to hosting a GIT or
+HG repository will also include features like a WIKI or issue tracker
+that are not directly realated to the DVCS but can be very useful for
+management of a project.
 
-In addition using a cloud hosting service provides an automatic off site backup, which can provide an 
-important level of safety for a small company that might not have procedures in place for backups or disaster recovery. 
+In addition using a cloud hosting service provides an automatic off
+site backup, which can provide an important level of safety for a
+small company that might not have procedures in place for backups or
+disaster recovery.
+
 
 
 === GitHub
 
-The 10,000 pound gorrilla of the DVCS hosting world is github. This is for a good reason, github has
-been leading the effort to create new and innovative features for collaberative development. In addition
-github has in some ways become the social network for programmers, and the central place for development,
-having taken that crown from soruceforge several years ago.  
-
-
+The 10,000 pound gorrilla of the DVCS hosting world is github. This is
+for a good reason, github has been leading the effort to create new
+and innovative features for collaberative development. In addition
+github has in some ways become the social network for programmers, and
+the central place for development, having taken that crown from
+soruceforge several years ago.
 
 ==== Community
 
-One of Github's goals is to provide a place for community for developers. There are a huge number
-of open source projects on github (Including this book) that can be forked and downloaded. In many ways
-github is providing the "View Source" feature for the current decade. 
-on it. 
+One of Github's goals is to provide a place for community for
+developers. There are a huge number of open source projects on github
+(Including this book) that can be forked and downloaded. In many ways
+github is providing the "View Source" feature for the current decade.
+on it.
 
-Github has thousands of open source projects and countless developers using it.  Indead it is common to
-see "Fork me on github" on the web pages of open source projects. 
+Github has thousands of open source projects and countless developers
+using it.  Indead it is common to see "Fork me on github" on the web
+pages of open source projects.
 
-If your goal is to build a public project github can form the natural home for your project.
+If your goal is to build a public project github can form the natural
+home for your project.
 
 TODO: Expand
 
@@ -65,7 +73,22 @@ repositories. If that is not enough then there are a number of plans
 that range up to $50/month for 50 repositories. (If you need more
 contact them). 
 
-==== Enterprise Github
+==== Github Enterprise 
+
+If you are a a larger company and wish to have your source code behind
+your firewall then useing the github.com site will not work for
+you. The problem is that you may wish to have the same features as the
+public github, including the API, and all the user interfaces of
+github.com .
+
+The github folks have a plan to help you in this case in *Github
+Enterprise*. This is a commercial software that runs as a virtual
+machine on your network. This supports a number of popular
+virtualization technologies including VMware and IBM Power.
+
+Github Enterprise costs $21/user/month, but user licences come in
+blocks of 20. So expect to pay $5,000 per year at a miniumum to use
+this software. 
 
 === Bitbucket
 
