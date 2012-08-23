@@ -48,6 +48,8 @@ Since this API is public there is no reason that a developer can use
 this to automate part of a workflow. for more details see
 link:github_api.asciidoc[Github API]
 
+=== Features
+
 
 ==== Pricing
 
