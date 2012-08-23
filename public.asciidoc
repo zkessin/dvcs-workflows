@@ -3,7 +3,6 @@
 [grid="rows",format="csv"]
 [options="header",cols="<s,<,<"]
 |===========================
-
 Team Members, Well Defined , *Amorphous*
 Team Location, *Distributed*, Co Located
 Time Frame, *On Going*, Limited
@@ -14,7 +13,7 @@ Leadership, Formal, *Informal*
 
 A public project, including many open source programs, is one where
 you are trying to leverage the community at large to build
-something. This may be a book (like this one) or a open source
+something. This may be a book (like this one), or a open source
 software project or even a families collection of recipes. 
 
 In this case Github is a clear win just by its large community and its
@@ -29,4 +28,9 @@ fork the repository and add their own content. This will be sent back
 to the original leader via a pull request. 
 
 If the project gets large then it may evolve into something that
-resembles the Linux Kernel team workflow. 
+resembles the Linux Kernel team workflow. This is in effect a
+simpified version of that pattern. While the Linux kernel team has
+several layers of gatekeeper between a contributer and the
+authoratative version of the project, in a smaller project there may
+only be one or two core people who accept all the pull requests and
+integrate them. 
