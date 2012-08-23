@@ -9,6 +9,7 @@
 * link:dvcs_cloud_hosting.asciidoc[Cloud Hosting Services]
 * link:workflow_planning.asciidoc[WorkFlow Planning]
 * link:single_devloper.asciidoc[A Single Devloper]
+* link:single_devloper_with_client.asciidoc[A Single Devloper With a Client]
 * link:linux_kernel.asciidoc[The Linux Kernel Team]
 * link:netcafe.asciidoc[Working in a Cafe] 
 * link:small_team.asciidoc[A Small Team]
