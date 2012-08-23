@@ -36,42 +36,76 @@ TODO: Expand
 
 ==== Github API and tools
 
-In addition github provides a very robust API that allows developers to create applications that integrate
-with github. So for example when building applications with PhoneGap it is possible to point Phonegap at
-the correct github repository and then have phonegap simply pull the correct files from GitHub. 
+In addition github provides a very robust API that allows developers
+to create applications that integrate with github. So for example when
+building applications with PhoneGap it is possible to point Phonegap
+at the correct github repository and then have phonegap simply pull
+the correct files from GitHub.
 
 TODO: Talk about other tools that plug into github here
 
-Since this API is public there is no reason that a developer can use this to automate part of a
-workflow. for more details see link:github_api.asciidoc[Github API]
+Since this API is public there is no reason that a developer can use
+this to automate part of a workflow. for more details see
+link:github_api.asciidoc[Github API]
 
 
 ==== Pricing
 
-Github is a buisiness and of course it costs money to run, so it should come as no shock that they
-charge for hosting. In order to build community public projects, like this ebook, are hosted for
-free. However private projects cost money to create. Bitbucket's plans are priced by number of repositories. 
-For details of how much it costs check the github website. 
+Github is a buisiness and of course it costs money to run, so it
+should come as no shock that they charge for hosting. In order to
+build community public projects, like this ebook, are hosted for
+free. However private projects cost money to create. Bitbucket's plans
+are priced by number of repositories.  For details of how much it
+costs check the github website.
+
+At the time of this writting github charges $7 a month for up to five
+repositories. If that is not enough then there are a number of plans
+that range up to $50/month for 50 repositories. (If you need more
+contact them). 
+
+==== Enterprise Github
 
 === Bitbucket
 
-In some ways Bitbucket is a clone of GitHub, however it has a few options that github lacks. First of
-all it support HG in addition to GIT so if your team wishes to use HG it is a strong possibility. In addition while
-github offers free public repositories it does require you to pay for private ones. With bitbucket you can have as many
-private repos as you want, however you can only share them with up to five other people before you have to pay for
-hosting. In addition bitbucket allows unlimited repos with all plans but limits how many people you can share with. If
-you don't need community or to share with more than a few people bitbucket can be a good option. For the
-case of a lone developer who just wants offsite backups this can be a good option.
+In some ways Bitbucket is a clone of GitHub, however it has a few
+options that github lacks. First of all it support HG in addition to
+GIT so if your team wishes to use HG it is a strong possibility. In
+addition while github offers free public repositories it does require
+you to pay for private ones. With bitbucket you can have as many
+private repos as you want, however you can only share them with up to
+five other people before you have to pay for hosting. In addition
+bitbucket allows unlimited repos with all plans but limits how many
+people you can share with. If you don't need community or to share
+with more than a few people bitbucket can be a good option. For the
+case of a lone developer who just wants offsite backups this can be a
+good option.
 
 
 ==== Features
+
+
 ==== Pricing
 
+Unlike github, bitbucket charges you not by how many repositories you
+have but based on how many people you wish to share them with. If you
+wish to share you're repositories with five other people or less,
+total. Then you can use their free account. If you want to share with
+more than 5 people they have a plans that start at $10/month for up to
+10 users and run up to $200/month for an unlimited number of users. 
+
+If you are a student you might be eligable for a free unlimited
+account. 
+
+==== Stash - Enterprise Bitbucket
 
 
 
+===
 
-
+There are of course other git and hg hosting repositories out there,
+and you can find them via a google search easily enough. Of course you
+can also host your own git repo on your own server, which could be
+internal to your office or on a co-located or cloud host. 
 
 
 
