@@ -3,13 +3,13 @@
 For developers who are used to centralized version control systems
 like CVS or SVN transitioning to GIT requires a bit of a mental
 transition. Unlike SVN a commit in git is a two phase operation. When
-you do a *git commit* you are commiting to your local repository. It
+you do a *git commit* you are committing to your local repository. It
 does not publish those changes to anyone else. This has several
 benefits, first of all you can commit work in progress without woring
 about "breaking the build" so if you may want to roll back some
 changes you can commit to a branch on your local repository.  It also
-means that you do not need internet access to commit to your local
-repository. So if you are say writting a book on your laptop while on
+means that you do not need Internet access to commit to your local
+repository. So if you are say writing a book on your laptop while on
 an international flight (which is where this is being written) you can
 check in your changes to a local repository and then push them to a
 shared repository later when you flight lands.
@@ -20,6 +20,11 @@ To create a repository use the command *git init* which will
 initialize an empty git repository.  Once a repository has been
 created files can be added to it and all other operations performed.
 
+The other way to create a repository is by doing it with github or
+other remote hosting service. Once you create the repository on github
+you then clone the repository onto your local computer.  
+
+
 === Basic Operations
 
 The first thing you will wish to do after creating a repository is add
@@ -29,7 +34,7 @@ particularly useful, anymore than any other file system without files.
 To add files use the command *git add <file>* you can also add more
 than one file or a directory structure.
 
-==== Commiting Changes
+==== Committing Changes
 
 Once you have added files to a repository you will need to commit
 changes that have been made.  to do this you use *git commit*. Git
@@ -43,7 +48,7 @@ repository.
 
 ==== Using Git with Emacs or and IDE
 
-If you are using Emacs then the same VCS comands that work in CVS or
+If you are using Emacs then the same VCS commands that work in CVS or
 SVN will work with git. So you can use "C-v c c" to commit a file or
 "C-v C-d" to get a directory listing of what files have changed.
 
@@ -52,26 +57,26 @@ integrate with GIT.
 
 ==== Branching and Merging
 
-Git makes dealing with branches much eaiser than svn or the like. Many
+Git makes dealing with branches much easier than svn or the like. Many
 git users will create a new branch for each feature. This also allows
 you to easily throw away changes did work well by simply abandoning
 the branch.
 
-To create a banch use *git branch <branchname>* this will create a new
+To create a branch use *git branch <branchname>* this will create a new
 branch, however it will not change repository to the new branch, do do
 that do *git checkout <branchname>*. Then edit and commit files as
 normal.
 
 When you wish to integrate the changes from a branch into the master
 branch do "git checkout master", which will bring you back to the
-master branch. To bring the chagnes from your branch into the master
-branch back do *git merge branchname* which will copy eveything into
+master branch. To bring the changes from your branch into the master
+branch back do *git merge branchname* which will copy everything into
 the master branch.
 
 In the case we have just covered the master branch has not changed
-while development was moving on the sidebranch. So at all git has to
-do is whats called a "fast-forward" where it can simply move the
-master branch ahead so that the current pointer for the respository
+while development was moving on the side branch. So at all git has to
+do is what called a "fast-forward" where it can simply move the
+master branch ahead so that the current pointer for the repository
 points to the head commit for the branch.
 
 In the case where two branches are being merged where one is not a
@@ -92,7 +97,7 @@ done via a pull request.
 
 In general it would work like this. Alice wants to add a new feature
 to an app. She will pull the most recent version of *master* from the
-cental repo and then create a branch for her new feature, lets call it
+central repo and then create a branch for her new feature, lets call it
 *writing_desk* and write her code. When she is done she will
 send a pull request to Lewis from the *writing_desk* branch. 
 
@@ -110,41 +115,52 @@ reason you can undo that *TODO FINISH*
 ==== Removing Files
 
 Often in the course of development a file or group of files will
-become irrelivent. Git of coruse allows you to remove the file.  To
+become irrelivent. Git of course allows you to remove the file.  To
 remove a file from a git repository use *git rm filename* Then commit.
 It will of course not remove the file from the history of the project,
 nor from other branches.
 
 To move a file use "git mv oldfile newfile" which will remove the old
-file and add the new one, but will be able to preseve history.
+file and add the new one, but will be able to preserve history.
 
 
 === Remote Git
 
 What makes git so useful is that it has such wonderful features for
-working with repote repositories. There are for major commands for
-working with a remote repository. In this case a remote repoistory can
+working with remote repositories. There are for major commands for
+working with a remote repository. In this case a remote repository can
 be a different directory on the same computer or on a different
-computer somewhere else, or even on a thumbdrive.
+computer somewhere else, or even on a thumb drive.
 
 ==== Clone
 
 To copy a remote repository use "git clone" this will copy the
 repository along with all all of its history to the local system. By
-default it will clone the "master" branch.
+default it will clone the "master" branch. 
+
+You should use *clone* when you want to copy a repository onto a
+computer for the first time. After that you will use *pull* or *fetch*
+to get the most recent versions of files. 
 
 ==== Push
 
 If you clone a remote repository and then make changes to it you will
 probably want to return those changes to that repository. To do that
 use *git push* which takes changes from the local repository and
-copies them to the remote repository.
+copies them to the remote repository. In order to do this you must of
+course have rights to write to that repository. 
+
+A push can not merge code, so if the advance is not a fast forward then
+it will be rejected. So before you do a push you may need to do a pull.
 
 ==== Pull
 
-
-
-
+A *pull* is not quite the opposite of a push. A pull will take code
+from 'there' and move it to 'here'. However unlike a push a pull will
+merge the code together.  By default a pull will merge code into the
+current branch. In many cases it may make sense to create a throw away
+branch, pull into that, do any merging that may be required then merge
+it back into the development branch. 
 
 ==== Fetch
 
@@ -175,27 +191,27 @@ to each other Bob may just say to Ann "Ok pull my changes" and let her
 know the URL of the repository and which branch the changes are
 on. You can push or pull from any local branch to any remote branch. 
 
-Howevver if you are more than three or four people and are not sitting all in
+However if you are more than three or four people and are not sitting all in
 one place you will probably want a more formal way to do this. To support this 
-GitHub has created a formal idea of a "Pull Request" which is a formal way for a user to
+Github has created a formal idea of a "Pull Request" which is a formal way for a user to
 let another user know that there are changes to be integrated. 
 
-If Ann has chagnes that she wishes Bob to take into his repository via
-GitHub (or bitbucket) she will go to the web site for her repository
+If Ann has changes that she wishes Bob to take into his repository via
+Github (or bitbucket) she will go to the web site for her repository
 on Github and then select which branch contains her changes and of
 course who she wishes to send the change request too.
 
 Bob will then be notified by Github that he has a pull request
-pending. Github notificiations can be configured to run over email,
-threw the website or via the API or a mobile app.
+pending. Github notifications can be configured to run over email,
+threw the web site or via the API or a mobile app.
 
 Bob will then have a chance to review the changes that Ann made and
 integrate them into his three or reject them.
 
 
-TODO: Add diagrams here
+TODO: Add diagrams and expand
 
-All of this can also be done via the GITHub API, but that is somewhat
+All of this can also be done via the Github API, but that is somewhat
 beyond the scope of this chapter.
 
 
