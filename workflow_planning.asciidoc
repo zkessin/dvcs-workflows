@@ -1,9 +1,9 @@
-== Workflow Planning
+== Work flow Planning
 
 One of the great advantages of a DVCS is that there is not one
-prescribed workflow. Teams are free to figure out what will work best
+prescribed work flow. Teams are free to figure out what will work best
 for them. The great disadvantage is that since there is not one
-prescribed workflow teams have to figure that out.
+prescribed work flow teams have to figure that out.
 
 
 To figure out what type of work flow several questions will have to be
@@ -23,7 +23,7 @@ Leadership, Formal, Informal
 
 Of course many projects will hit somewhere in the middle on one or
 those questions. The Linux Kernel team is probably pretty well defined
-at the core but may be a bit amorphous at the edges. Each workflow
+at the core but may be a bit amorphous at the edges. Each work flow
 presented here will start with a version of this chart for
 reference. 
 

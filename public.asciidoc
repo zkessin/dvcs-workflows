@@ -20,7 +20,7 @@ In this case Github is a clear win just by its large community and its
 tools to create and support community. 
 
 In terms of how to work it is pretty simple, the project leader will
-publish a repository on github and then annouce it (normally via
+publish a repository on github and then announce it (normally via
 twitter, blogs, mailing lists or other social media sites).
 
 At this point anyone else who is interested in the project will then
@@ -28,9 +28,9 @@ fork the repository and add their own content. This will be sent back
 to the original leader via a pull request. 
 
 If the project gets large then it may evolve into something that
-resembles the Linux Kernel team workflow. This is in effect a
-simpified version of that pattern. While the Linux kernel team has
-several layers of gatekeeper between a contributer and the
-authoratative version of the project, in a smaller project there may
+resembles the Linux Kernel team work flow. This is in effect a
+simplified version of that pattern. While the Linux kernel team has
+several layers of gate keeper between a contributer and the
+authoritative version of the project, in a smaller project there may
 only be one or two core people who accept all the pull requests and
 integrate them. 

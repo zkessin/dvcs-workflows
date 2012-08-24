@@ -36,7 +36,7 @@ on the edges may come and go. It is quite possible to think that a
 company would write a device driver for some piece of hardware submit
 it to the correct person and then only change it once in a while. 
 
-If you have a large team some variation on this workflow may make
+If you have a large team some variation on this work flow may make
 sense. In this case what would have to happen is that the project must
 be able to decompose into smaller components each of which would be
 the responsibility of a component leader. Those component leaders will

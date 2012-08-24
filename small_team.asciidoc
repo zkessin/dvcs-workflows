@@ -1,4 +1,4 @@
-=== A Workflow for a Small Team
+=== A Work flow for a Small Team
 
 [grid="rows",format="csv"]
 [options="header",cols="<s,<,<"]
@@ -12,7 +12,7 @@ Leadership, *Formal*, Informal
 |===========================
 
 
-When you have outgrown the previous workflow, which resembles a fully
+When you have outgrown the previous work flow, which resembles a fully
 connected graph then the question is what to replace it with. There is
 not one correct way to do things at this stage but clearly there are
 some wrong ways. The Linux Kernel model is clearly overkill for a team
@@ -31,7 +31,7 @@ and they are integrated.
 As a variation it would also be possible to have a central integration
 machine, and he will send that account a pull request. Then move to
 the integration machine merge the code and integrate the changes. In order 
-for this to work there should not be a backlog of changes and poeple should 
+for this to work there should not be a backlog of changes and people should 
 integrate them as soon as possible. 
 
 One place that this can lead to problems is that if changes are not
@@ -50,7 +50,7 @@ point of "truth" for the project, so that everyone knows what is going
 to be shipped. It would be way to easy for a project to end up with
 the situation where there are a number of repos each with a slightly
 different version of the code and have no one realize it until two
-days before a major deadline. In the previous workflow that risk is
+days before a major deadline. In the previous work flow that risk is
 mitigated by close communication and the limited scope of the
 project. A hack-a-thon or a typical homework project will probably
 only last a few hours to a few days, while a small company might be

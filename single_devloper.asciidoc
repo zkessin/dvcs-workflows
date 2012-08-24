@@ -12,24 +12,31 @@ Team Size, Large, *Small*
 Leadership, *Formal*, Informal
 |===========================
 
-If you are devloping a project solo many of the compexities of a group are greatly simpified, 
-As there is only one team member she does not need to coridnate with team members. 
-fThere are two aspects of how to work on a project solo. How to best take advantage of the features
-of git such as branches and how to take best advantage of cloud hosting.
+If you are developing a project solo many of the complexities of a
+group are greatly simplified, As there is only one team member she
+does not need to coordinate  with team members.  fThere are two aspects
+of how to work on a project solo. How to best take advantage of the
+features of git such as branches and how to take best advantage of
+cloud hosting.
 
-I have found that while working solo or in a group using frequent small branches makes life simple. 
-For each new feature I create a new branch and do the development I want to do. When I have fished 
-the feature I merge it back into the main branch.
+I have found that while working solo or in a group using frequent
+small branches makes life simple.  For each new feature I create a new
+branch and do the development I want to do. When I have fished the
+feature I merge it back into the main branch.
 
-I tend to use bitbucket for solo projects. Unlike github bitbucket allows you to have have unlimted 
-private repositories. As I don't care about community in this case giving up github's features doesn't bother
-me as I am working solo. 
+I tend to use Bitbucket for solo projects. Unlike github Bitbucket
+allows you to have have unlimited private repositories. As I don't
+care about community in this case giving up github's features doesn't
+bother me as I am working solo.
 
-I do however want to use a cloud host as I may be using the project from several computes. I may wish to 
-have access to the files from my desktop, my laptop and a cloud server for deployment.
+I do however want to use a cloud host as I may be using the project
+from several computes. I may wish to have access to the files from my
+desktop, my laptop and a cloud server for deployment.
 
-One reason to prefer github is that many online build tools can take advantage ofthe github API.
-SO exaple if I am building an application for mobile phones with phonegap then I may wish to
-use their API to build my applicaiton. {TODO link phongap) this will enable me to take advantage
-of those biuld tools. In that case I could aslo push my changes onto the phonegap git archive. 
+One reason to prefer github is that many online build tools can take
+advantage of the github API.  SO example if I am building an
+application for mobile phones with PhoneGap then I may wish to use
+their API to build my application. {TODO link PhoneGap) this will
+enable me to take advantage of those build tools. In that case I could
+also push my changes onto the PhoneGap git archive.
 
