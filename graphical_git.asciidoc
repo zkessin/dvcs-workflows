@@ -52,4 +52,29 @@ The github mac client will of course do everything you would expect a
 git client to do. It can commit changes, view history, create and
 merge branches and so on. 
 
+When you open the Github client you are presented with a panel that
+lists your repositories. You can select one to work with. If you need
+to create a new repository or open one that the client does not know
+about you can do that from the file menu. 
+
+TODO How to clone a repo???
+
+When you select a repository you are presented with a panel with four
+buttons on the side, that cover most of the options that you would
+want to do. 
+
+The top button, will show the history of the current branch. You can
+select a given commit and see the comment as well as what was changed
+in that commit. 
+
+To commit a set of changes go to the second button. The left hand side
+of the panel will show a list of files that have changed. Select the
+file or files that you wish to commit, and enter a comment then click
+the commit button. If you need to review what was changed in  a given
+file that will be shown on the right side. 
+
+TODO Screenshot
+
+
+
 ==== Sourcetree
