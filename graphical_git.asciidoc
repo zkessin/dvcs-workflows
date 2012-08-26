@@ -12,6 +12,10 @@ everyone will wish to work with a command line tool (or to do so for
 all tasks). As such there are a number of tools for both the Mac and
 Windows that can make your life easier. 
 
+In order to be included here a package must be free and include all of
+the normal git commands that you might want to use from a command
+line. 
+za
 === Windows 
 ==== Tortoise GIT
 
@@ -32,5 +36,20 @@ should) but if you want to do some things with a graphical client
 there are a few free options. 
 
 ==== Github For Mac
+
+The folks at Github, as part of their effort to improve the git
+ecosystem have their own Git client for the mac, You can download it
+from link:http://mac.github.com/[] or by going to
+link:http://www.github.com[] and selecting Github for Mac at the
+bottom of the page. 
+
+Note: you do not need to use github for mac only with Github, it will
+work with any git repository. So if you host your public projects on
+github and your private ones on bitbucket you can use this tool with
+both. However some features may only work with github
+
+The github mac client will of course do everything you would expect a
+git client to do. It can commit changes, view history, create and
+merge branches and so on. 
 
 ==== Sourcetree

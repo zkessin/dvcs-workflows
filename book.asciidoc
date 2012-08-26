@@ -10,3 +10,4 @@
 * link:workflow_planning.asciidoc[WorkFlow Planning]
 * link:workflows.asciidoc[Workflows]
 * link:github_api.asciidoc[Using the Github API]
+* link:graphical_git.asciidoc[Graphical Git Frontends]
