@@ -1,0 +1,36 @@
+== Graphical Git Front-ends
+
+I will confess to being a long time linux and Emacs user. As such
+moving from CVS and SVN to GIT and HG was pretty easy. The Emacs VCS
+modes for all four systems are pretty similar and the same basic
+keystrokes will work on all of them. (Which is really quite handy when
+you have to switch back and forth for different projects). 
+
+In addition I have long experience with command lines so using a unix
+bash shell to get things done is not a big deal for me. Of course not
+everyone will wish to work with a command line tool (or to do so for
+all tasks). As such there are a number of tools for both the Mac and
+Windows that can make your life easier. 
+
+=== Windows 
+==== Tortoise GIT
+
+If you have used the Tortoise Client for CVS or SVN you will be
+happy to know that they also have a GIT client.
+
+==== Tortoise HG
+
+
+==== Github For windows?
+
+
+=== Mac
+
+There are a number of graphical git tools for the mac. You can of
+course download the command line git via homebrew (and probably
+should) but if you want to do some things with a graphical client
+there are a few free options. 
+
+==== Github For Mac
+
+==== Sourcetree
