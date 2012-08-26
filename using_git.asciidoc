@@ -14,14 +14,21 @@ an international flight (which is where this is being written) you can
 check in your changes to a local repository and then push them to a
 shared repository later when you flight lands.
 
+This chapter is not a full introduction to git. There are several
+excellent books on that including *Version Control with Git* by Jon
+Loeliger and McCullough which is published by O'Reilly. That book is
+an excellent introduction to git. In addition there are several other
+books out there as well as videos which can be found on youtube and
+infoq. 
+
 === Creating a repository
 
 To create a repository use the command *git init* which will
 initialize an empty git repository.  Once a repository has been
 created files can be added to it and all other operations performed.
 
-The other way to create a repository is by doing it with github or
-other remote hosting service. Once you create the repository on github
+The other way to create a repository is by doing it with Github or
+other remote hosting service. Once you create the repository on Github
 you then clone the repository onto your local computer.  
 
 
@@ -66,6 +73,15 @@ To create a branch use *git branch <branchname>* this will create a new
 branch, however it will not change repository to the new branch, do do
 that do *git checkout <branchname>*. Then edit and commit files as
 normal.
+
+A git branch can exist on the local repository only, or on a remote
+repository. Clearly some branches such as a throw away experiment in
+the code probably will only exist on a local repository. On the other
+hand a feature branch may well exist on both local and remote
+repositories. (The details of this will depend on how the team chooses
+to do things)
+
+TODO how to make a remote branch
 
 When you wish to integrate the changes from a branch into the master
 branch do "git checkout master", which will bring you back to the
