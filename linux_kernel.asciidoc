@@ -13,7 +13,11 @@ Leadership, *Formal*, Informal
 
 The Linux kernel was the project for which GIT was created, so it is a
 good place to start talking out how teams use git to get work
-done. (Pretty much everything here would also work with HG).
+done. (Pretty much everything here would also work with HG). It is
+important to understand that GIT was built for large teams, a linux
+kernel release may contain thousands of commits from hundreds of
+contributers. GIT was built to handle that kind of usage. Thankfully
+it scales down quite well for small projects. 
 
 At the center of the Linux Universe in Linus Torvalds. He maintains a
 central authoritative copy of the kernel source tree. Around him are a
