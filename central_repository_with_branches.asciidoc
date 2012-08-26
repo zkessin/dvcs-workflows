@@ -13,4 +13,12 @@ Leadership, *Formal*, Informal
 |===========================
 
 
-One way to work with a small 
+One way to work with a small group is to have one central repository
+and then have all new development happen in a series of branches. Each
+feature is implemented in its own branch and when code review and
+testing are complete the code is merged into the master branch from
+which the final build is constructed and shipped.
+
+In order for this work flow to work then your team must have good
+discipline as anyone can integrate code into the master branch and
+ship that code.
