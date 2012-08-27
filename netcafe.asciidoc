@@ -3,7 +3,6 @@
 [grid="rows",format="csv"]
 [options="header",cols="<s,<,<"]
 |===========================
-
 Team Members, Well Defined , *Amorphous*
 Team Location, Distributed, *Co Located*
 Time Frame, On Going, *Limited*

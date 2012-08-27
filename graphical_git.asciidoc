@@ -15,7 +15,28 @@ Windows that can make your life easier.
 In order to be included here a package must be free and include all of
 the normal git commands that you might want to use from a command
 line. 
-za
+
+=== Emacs
+==== Using Git with Emacs
+
+If you are an emacs user who has worked with other VCS systems such as
+CVS or SVN in emacs then you may wish to also work with GIT or HG in
+emacs. Thankfully Emacs has good integration with both git and HG. In
+addition many of the same key commands work across CVS, SVN, HG and
+GIT. So in all four systems the command "C-x v d" will show you which
+files have changed since the last commit. (Of course what a commit
+means in those four systems is not the same). 
+
+If you are using the GIT mode in emacs there will be an addition to
+the status bar that says _Git:<branch name>_. If you click on that you
+will get a menu that will show you all of the various options for git
+under emacs. 
+
+==== Using HG with Emacs 
+
+
+
+
 === Windows 
 ==== Tortoise GIT
 
@@ -57,7 +78,7 @@ lists your repositories. You can select one to work with. If you need
 to create a new repository or open one that the client does not know
 about you can do that from the file menu. 
 
-TODO How to clone a repo???
+TODO: How to clone a repo?
 
 When you select a repository you are presented with a panel with four
 buttons on the side, that cover most of the options that you would
@@ -75,6 +96,19 @@ file that will be shown on the right side.
 
 TODO Screenshot
 
+If you have multiple branches (and in many projects you probably
+should) you can work with those branches in the branches tab. Here you
+can create a new branch, select which  branch to work with and so
+on. You can also publish a branch to the server. 
 
+The final tab is the settings tab. From here you can set the remote
+origin of a repository. In addition you can setup the _.gitignore_
+file 
 
+You can also do a push or a pull from the client. to do a push hit
+command-P and a pull can be done with Command-Shift-P.
+
+Nicely it will also work with other git clients (as you would expect)
+so you can commit changes with emacs and review them with the github
+client. 
 ==== Sourcetree

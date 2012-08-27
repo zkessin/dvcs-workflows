@@ -9,8 +9,9 @@ interface.
 Of course as git is a command line tool a shell script can be written
 that will do many of the standard git operations. So for example you
 could take some raw data, populate some templates, commit them into
-git and push them up to a server. [TODO talk about github's web
-hosting]
+git and push them up to a server. 
+
+[TODO talk about github's web hosting]
 
 However if you want to do something more complex then you may wish to
 use the github api which lets you access many of the features of

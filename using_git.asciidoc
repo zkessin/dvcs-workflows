@@ -15,7 +15,7 @@ check in your changes to a local repository and then push them to a
 shared repository later when you flight lands.
 
 This chapter is not a full introduction to git. There are several
-excellent books on that including *Version Control with Git* by Jon
+excellent books on that including _Version Control with Git_ by Jon
 Loeliger and McCullough which is published by O'Reilly. That book is
 an excellent introduction to git. In addition there are several other
 books out there as well as videos which can be found on youtube and
@@ -39,7 +39,9 @@ some files for it to track. A repository without any files is not
 particularly useful, anymore than any other file system without files.
 
 To add files use the command *git add <file>* you can also add more
-than one file or a directory structure.
+than one file or a directory structure. 
+
+TODO: Expand
 
 ==== Committing Changes
 
@@ -53,14 +55,6 @@ Warning: unlike CVS and SVN if you do a commit in a subdirectory it
 will commit all files in the repository, not just those in the current
 repository.
 
-==== Using Git with Emacs or and IDE
-
-If you are using Emacs then the same VCS commands that work in CVS or
-SVN will work with git. So you can use "C-v c c" to commit a file or
-"C-v C-d" to get a directory listing of what files have changed.
-
-If you are using Eclipse, XCode or another IDE then many of these also
-integrate with GIT.
 
 ==== Branching and Merging
 
