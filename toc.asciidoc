@@ -2,12 +2,20 @@
 
 :Author: Zachary Kessin
 :Email: zkessin@gmail.com
+:Twitter: @zkessin
 
-=== Chapters
-* link:using_git.asciidoc.html[Using Git]
-* link:using_hg.asciidoc.html[Using Hg]
-* link:dvcs_cloud_hosting.asciidoc.html[Cloud Hosting Services]
-* link:workflow_planning.asciidoc.html[WorkFlow Planning]
-* link:workflows.asciidoc.html[Workflows]
-* link:github_api.asciidoc.html[Using the Github API]
-* link:graphical_git.asciidoc.html[Graphical Git Frontends]
+{Author}
+ {Email}
+ {Twitter}
+
+
+include::using_git.asciidoc[Using Git]
+include::using_hg.asciidoc[Using Hg]
+include::dvcs_cloud_hosting.asciidoc[Cloud Hosting Services]
+include::workflow_planning.asciidoc[WorkFlow Planning]
+
+include::workflows.asciidoc[Workflows]
+
+include::github_api.asciidoc[Using the Github API]
+
+include::graphical_git.asciidoc[Graphical Git Frontends]

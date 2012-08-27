@@ -55,3 +55,4 @@ mitigated by close communication and the limited scope of the
 project. A hack-a-thon or a typical homework project will probably
 only last a few hours to a few days, while a small company might be
 working on its code base for a period of years. 
+

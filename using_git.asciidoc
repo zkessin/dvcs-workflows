@@ -41,7 +41,7 @@ particularly useful, anymore than any other file system without files.
 To add files use the command *git add <file>* you can also add more
 than one file or a directory structure. 
 
-TODO: Expand
+NOTE: TODO Expand
 
 ==== Committing Changes
 
@@ -75,7 +75,7 @@ hand a feature branch may well exist on both local and remote
 repositories. (The details of this will depend on how the team chooses
 to do things)
 
-TODO how to make a remote branch
+NOTE: TODO how to make a remote branch
 
 When you wish to integrate the changes from a branch into the master
 branch do "git checkout master", which will bring you back to the
@@ -120,7 +120,9 @@ this point Alice will merge her new code back into *master*.
 ==== Undoing changes
 
 If you have made a change to a file and wish to undo it for some
-reason you can undo that *TODO FINISH*
+reason you can undo that 
+
+NOTE: TODO Finish
 
 ==== Removing Files
 
@@ -130,7 +132,7 @@ remove a file from a git repository use *git rm filename* Then commit.
 It will of course not remove the file from the history of the project,
 nor from other branches.
 
-To move a file use "git mv oldfile newfile" which will remove the old
+To move a file use *git mv oldfile newfile* which will remove the old
 file and add the new one, but will be able to preserve history.
 
 
@@ -144,7 +146,7 @@ computer somewhere else, or even on a thumb drive.
 
 ==== Clone
 
-To copy a remote repository use "git clone" this will copy the
+To copy a remote repository use *git clone* this will copy the
 repository along with all all of its history to the local system. By
 default it will clone the "master" branch. 
 
@@ -201,10 +203,11 @@ to each other Bob may just say to Ann "Ok pull my changes" and let her
 know the URL of the repository and which branch the changes are
 on. You can push or pull from any local branch to any remote branch. 
 
-However if you are more than three or four people and are not sitting all in
-one place you will probably want a more formal way to do this. To support this 
-Github has created a formal idea of a "Pull Request" which is a formal way for a user to
-let another user know that there are changes to be integrated. 
+However if you are more than three or four people and are not sitting
+all in one place you will probably want a more formal way to do
+this. To support this Github has created a formal idea of a "Pull
+Request" which is a formal way for a user to let another user know
+that there are changes to be integrated.
 
 If Ann has changes that she wishes Bob to take into his repository via
 Github (or bitbucket) she will go to the web site for her repository
@@ -219,7 +222,7 @@ Bob will then have a chance to review the changes that Ann made and
 integrate them into his three or reject them.
 
 
-TODO: Add diagrams and expand
+NOTE: TODO Add diagrams and expand
 
 All of this can also be done via the Github API, but that is somewhat
 beyond the scope of this chapter.

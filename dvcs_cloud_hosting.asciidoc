@@ -40,7 +40,7 @@ pages of open source projects.
 If your goal is to build a public project github can form the natural
 home for your project.
 
-TODO: Expand
+NOTE: TODO Expand
 
 ==== Github API and tools
 
@@ -50,7 +50,7 @@ building applications with PhoneGap it is possible to point PhoneGap
 at the correct github repository and then have PhoneGap simply pull
 the correct files from Github.
 
-TODO: Talk about other tools that plug into github here
+NOTE: TODO Talk about other tools that plug into github here
 
 Since this API is public there is no reason that a developer can use
 this to automate part of a work flow. for more details see
@@ -72,6 +72,9 @@ At the time of this writing github charges $7 a month for up to five
 repositories. If that is not enough then there are a number of plans
 that range up to $50/month for 50 repositories. (If you need more
 contact them). 
+
+NOTE: Prices are correct as of when this was written. They may change
+in the future.
 
 ==== Github Enterprise 
 
@@ -118,6 +121,9 @@ total. Then you can use their free account. If you want to share with
 more than 5 people they have a plans that start at $10/month for up to
 10 users and run up to $200/month for an unlimited number of users. 
 
+NOTE: Prices are correct as of when this was written. They may change
+in the future.
+
 If you are a student you might be eligible for a free unlimited
 account. 
 
@@ -125,7 +131,7 @@ account.
 
 
 
-===
+
 
 There are of course other git and hg hosting repositories out there,
 and you can find them via a google search easily enough. Of course you

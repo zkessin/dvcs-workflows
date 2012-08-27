@@ -39,3 +39,4 @@ dealt with by simply picking up my phone and calling my client, or by
 using some form of IM. Of course that does not mean that project
 notifications are not useful, so much as that using them may not be
 required in such a small team. 
+

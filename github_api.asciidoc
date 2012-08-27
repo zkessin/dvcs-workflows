@@ -11,13 +11,16 @@ that will do many of the standard git operations. So for example you
 could take some raw data, populate some templates, commit them into
 git and push them up to a server. 
 
-[TODO talk about github's web hosting]
+NOTE: TODO talk about github's web hosting
 
 However if you want to do something more complex then you may wish to
 use the github api which lets you access many of the features of
 github programmaticly instead of doing them via the web interface.
 
-=== TODO 2-3 examples
+NOTE: TODO a few more examples
+
+
+BLAH BLAH BLAH
 
 === Building a Delta Debugger
 
@@ -46,13 +49,15 @@ where the bug exists.
 
 === A Build Tool
 
+An automated build tool...
+
 === CI with github
 
 If you are using github for hosting your product you may wish to do
 Continous Integration with your github repository.
 
 
-TODO how to do this
+NOTE: TODO how to do this
 
 
 
