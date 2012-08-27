@@ -9,6 +9,7 @@ Team Location, *Distributed*, Co Located
 Time Frame, *On Going*, Limited
 Team Size, *Large*, Small
 Leadership, *Formal*, Informal
+Repository Access, *Public*, Private
 |===========================
 
 The Linux kernel was the project for which GIT was created, so it is a

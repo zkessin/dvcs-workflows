@@ -9,6 +9,7 @@ Team Location, Distributed, *Co Located*
 Time Frame, On Going, *Limited*
 Team Size, Large, *Small*
 Leadership, Formal, *Informal*
+Repository Access, Public, *Private*
 |===========================
 
 At the opposite end of the spectrum from the Linux Kernel team is the

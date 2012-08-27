@@ -10,6 +10,7 @@ Team Location, Distributed, *Co Located*
 Time Frame, *On Going*, Limited
 Team Size, Large, *Small*
 Leadership, *Formal*, Informal
+Repository Access, Public, *Private*
 |===========================
 
 If you are developing a project solo many of the complexities of a
@@ -36,7 +37,7 @@ desktop, my laptop and a cloud server for deployment.
 One reason to prefer github is that many online build tools can take
 advantage of the github API.  SO example if I am building an
 application for mobile phones with PhoneGap then I may wish to use
-their API to build my application. {TODO link PhoneGap) this will
+their API to build my application. {TODO link PhoneGap} this will
 enable me to take advantage of those build tools. In that case I could
 also push my changes onto the PhoneGap git archive.
 

@@ -10,6 +10,7 @@ Team Location, Distributed, *Co Located*
 Time Frame, *On Going*, Limited
 Team Size, Large, *Small*
 Leadership, *Formal*, Informal
+Repository Access, Public, *Private*
 |===========================
 
 
@@ -21,4 +22,6 @@ which the final build is constructed and shipped.
 
 In order for this work flow to work then your team must have good
 discipline as anyone can integrate code into the master branch and
-ship that code.
+ship that code. 
+
+

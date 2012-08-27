@@ -8,6 +8,7 @@ Team Location, *Distributed*, Co Located
 Time Frame, *On Going*, Limited
 Team Size, *Large*, Small
 Leadership, Formal, *Informal*
+Repository Access, *Public*, Private
 |===========================
 
 

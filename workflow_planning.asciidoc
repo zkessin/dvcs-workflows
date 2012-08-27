@@ -19,6 +19,7 @@ Team Location, Distributed, Co Located
 Time Frame, On Going, Limited
 Team Size, Large, Small
 Leadership, Formal, Informal
+Repository Access, Public, Private
 |===========================
 
 Of course many projects will hit somewhere in the middle on one or
@@ -39,3 +40,15 @@ The advantage of a DVCS is that these kind of changes are at least
 from a technical point of view pretty simple to handle. Repositories
 can be cloned and merged pretty much at will. 
   
+Note: It should also note that I have not defined what is meant by "Large"
+and "Small" in the context of a team. I am assuming a more or less
+common sense definition in terms of the evolution of a project. 
+
+In addition different work flows will differ for public and private
+repositories. In this case a public repository is a project like this
+book or the linux kernel which anyone can access on github, bitbucket
+or the like. Presumably they can also fork the project and submit pull
+requests (which may or may not be accepted). 
+
+A private repository is one in which only members of a project team
+can access the repository.   
