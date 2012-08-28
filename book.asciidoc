@@ -1,9 +1,9 @@
-== DVCS Workflows
+= DVCS Workflows
 
 :Author: Zachary Kessin
 :Email: zkessin@gmail.com
 
-=== Chapters
+
 * link:using_git.asciidoc[Using Git]
 * link:using_hg.asciidoc[Using Hg]
 * link:dvcs_cloud_hosting.asciidoc[Cloud Hosting Services]
