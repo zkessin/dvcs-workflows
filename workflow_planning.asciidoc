@@ -1,6 +1,6 @@
 == Work flow Planning
 
-One of the great advantages of a DVCS is that there is not one
+One of the great advantages of a DVCS, like git or hg,  is that there is not one
 prescribed work flow. Teams are free to figure out what will work best
 for them. The great disadvantage is that since there is not one
 prescribed work flow teams have to figure that out.
@@ -8,7 +8,8 @@ prescribed work flow teams have to figure that out.
 
 To figure out what type of work flow several questions will have to be
 asked. There are several attributes of a project and a team that have
-to be asked as shown on this table. 
+to be asked as shown on this table.  Of course this table is only a
+guide, your work flow must match the needs of your project and team.
 
 [grid="rows",format="csv"]
 [options="header",cols="<s,<,<"]
@@ -37,7 +38,9 @@ want to adapt to a new setup.
 
 The advantage of a DVCS is that these kind of changes are at least
 from a technical point of view pretty simple to handle. Repositories
-can be cloned and merged pretty much at will. 
+can be cloned and merged pretty much at will. At worst team members
+may have to change the origin of their repository, or to archive their
+current repository and clone it anew from a central repository. 
   
 Note: It should also note that I have not defined what is meant by "Large"
 and "Small" in the context of a team. I am assuming a more or less
@@ -47,7 +50,10 @@ In addition different work flows will differ for public and private
 repositories. In this case a public repository is a project like this
 book or the linux kernel which anyone can access on github, bitbucket
 or the like. Presumably they can also fork the project and submit pull
-requests (which may or may not be accepted). 
+requests (which may or may not be accepted by the project maintainer). 
 
 A private repository is one in which only members of a project team
-can access the repository.   
+can access the repository, and would normally be used for the
+development internal to a company. Of course the project administrator
+can invite anyone into a private project.  
+
