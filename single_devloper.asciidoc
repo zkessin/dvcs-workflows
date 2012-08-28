@@ -40,3 +40,15 @@ their API to build my application. {TODO link PhoneGap} this will
 enable me to take advantage of those build tools. In that case I could
 also push my changes onto the PhoneGap git archive.
 
+
+NOTE: You can also use git to maintain any file or group of files that
+you might wish to keep track of, including things like unix config
+files such as a +.emacs.d+ directory or even a phone directory so that
+you don't delete your aunt's phone number by accident.
+
+.Using Git for config files
+****************************************
+BLAH BLAH BLAH
+
+
+****************************************
