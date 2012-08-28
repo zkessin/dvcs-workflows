@@ -2,10 +2,15 @@
 == Workflows
 
 include::linux_kernel.asciidoc[The Linux Kernel Team]
+
 include::single_devloper.asciidoc[A Single Devloper]
+
 include::single_devloper_with_client.asciidoc[A Single Devloper With a Client]
+
 include::netcafe.asciidoc[Working in a Cafe] 
+
 include::public.asciidoc[A Public or OpenSource Project]
 
 include::small_team.asciidoc[A Small Team]
+
 include::central_repository_with_branches.asciidoc[]
