@@ -18,7 +18,14 @@ there are many ways to setup a team work flow with a DVCS system. This
 book aims to explore some of those setups and explain why they work or don't work
 for that team. 
 
-link:book.asciidoc[Start Here]
+I will have the book online in HTML soon, but for now you can build this book by cloning this 
+repository and running this command: 
+
+................................................................................
+asciidoc --backend=html5 --out-file=book.html toc.asciidoc
+................................................................................
+
+
 
 This ebook may eventually turn into a real book. 
 
