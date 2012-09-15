@@ -1,4 +1,5 @@
-=== Working in a Cafe
+=== Working in Ad-Hoc teams
+
 
 [grid="rows",format="csv"]
 [options="header",cols="<s,<,<"]
@@ -16,7 +17,9 @@ Internet cafe or hackathon session. In this case we can assume 2-4
 people are going to be sitting down over a coffee or pizza to develop
 something. This would also apply to an early stage startup where
 people are writing code on laptops around a table, or a group of
-students working on their homework.  
+students working on their homework. In this case we should assume that
+the project will only last a few hours or a few days, so the work flow
+should be informal. 
 
 In this case the project probably does not have a formal leadership,
 and planning is probably done on a whiteboard. In addition a "Pull
@@ -24,9 +27,10 @@ Request" is probably done by turning to your friend and saying "Hey
 grab my code" not via a formal Github Pull request. (though you can do
 that too if you wish). 
 
-On the plus side you have the advantage that everyone is probably in
-the same room and may well have known each other before the project
-started. This can make the interaction between team members simpler.
+On the plus side you have the advantage that everyone involved is
+probably in the same room and may well have known each other before
+the project started. This can make the interaction between team
+members simpler.
 
 In this case a deep system like the Linux Kernel team uses makes no
 sense what so ever. What we want here is a limited number of peers
@@ -53,8 +57,11 @@ git there is not quite as easy an option, however you can use a cloud
 hosting service like github or even share the repositories with a file
 server or dropbox.
 
+What would probably work is to setup a repository on github and give
+everyone read/write access to it and push all changes there. 
+
 What will probably be more work is knowing when you have outgrown this
 workflow. At some point three guys sitting around a table with Pizza
 can turn into a real company which may require other types of
-workflow.
+work flow.
 
