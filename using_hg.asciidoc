@@ -24,11 +24,26 @@ If we want to share that repository we can run the command +hg serve+
 which will open a web server on port 8000 which we can use the
 interact with the hg repository. 
 
+The +hg serve+ command will produce a web page that looks a bit like
+the following image, with a history of the repository.
+
+image:using_hg/hg_log.png[]
+
+The nice this about this web page is that for free you get a number of
+nice features, that can help you manage a repository. 
+
+If you want to see a graphical version of the network of commits you
+can use the graph option which will give you a screen that looks like
+this image. Here you can see the results of a repository where there
+was a branch and a merge. With the side branch in green. 
+
+image:using_hg/hg_graph.png[]
+
+........................................
 NOTE: run +hg serve+ will by default not run in the background but
 keep logging to the terminal, so run it on a spare tab on in a session
 with screen or tmux or the like. 
 
-------
 listening at http://Galileo.local:8000/ (bound to *:8000)
 127.0.0.1 - - [15/Sep/2012 21:50:31] "GET / HTTP/1.1" 200 -
 127.0.0.1 - - [15/Sep/2012 21:50:31] "GET /static/style-paper.css HTTP/1.1" 200 -
@@ -40,5 +55,17 @@ listening at http://Galileo.local:8000/ (bound to *:8000)
 127.0.0.1 - - [15/Sep/2012 21:51:06] "GET /static/mercurial.js HTTP/1.1" 304 -
 127.0.0.1 - - [15/Sep/2012 21:51:06] "GET /static/hglogo.png HTTP/1.1" 304 -
 127.0.0.1 - - [15/Sep/2012 21:51:06] "GET /static/hgicon.png HTTP/1.1" 304 -
-------
+........................................
 
+
+You can also use the server to clone a repository by simply typing +hg
+clone URL+ which will pull the changes. 
+
+In terms of how to add files, like in git you use +hg add <files>+
+followed by +hg commit+ and like in git the +-m+ option will let you
+set the commit message.
+
+If you made some changes that you don't want to keep you can use the
++hg revert <files>+ to roll one or more files back to the last
+commit. When you do this hg will save any files you rolled back with
+the ending +.orig+ so that they are not lost. 
