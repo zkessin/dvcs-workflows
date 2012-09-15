@@ -78,6 +78,8 @@ lists your repositories. You can select one to work with. If you need
 to create a new repository or open one that the client does not know
 about you can do that from the file menu. 
 
+image:graphical_git/mac_github/repositories.png[title="Repositories Screen"]
+
 NOTE: TODO How to clone a repo?
 
 When you select a repository you are presented with a panel with four
@@ -88,22 +90,27 @@ The top button, will show the history of the current branch. You can
 select a given commit and see the comment as well as what was changed
 in that commit. 
 
+image:graphical_git/mac_github/history.png[title="History Screen"]
+
 To commit a set of changes go to the second button. The left hand side
 of the panel will show a list of files that have changed. Select the
 file or files that you wish to commit, and enter a comment then click
 the commit button. If you need to review what was changed in  a given
 file that will be shown on the right side. 
 
-NOTE: TODO Screenshot
+image:graphical_git/mac_github/commit.png[title="Commit Screen"]
 
 If you have multiple branches (and in many projects you probably
 should) you can work with those branches in the branches tab. Here you
 can create a new branch, select which  branch to work with and so
 on. You can also publish a branch to the server. 
 
+image:graphical_git/mac_github/branches.png[title="Branches Screen"]
+
 The final tab is the settings tab. From here you can set the remote
 origin of a repository. In addition you can setup the _.gitignore_
 file 
+image:graphical_git/mac_github/settings.png[title="Settings Screen"]
 
 You can also do a push or a pull from the client. to do a push hit
 command-P and a pull can be done with Command-Shift-P.
