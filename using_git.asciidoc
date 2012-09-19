@@ -41,14 +41,13 @@ you then clone the repository onto your local computer.
 
 === Basic Operations
 
-The first thing you will wish to do after creating a repository is add
+The first thing you will wish to do after creating a new repository is add
 some files for it to track. A repository without any files is not
 particularly useful, anymore than any other file system without files.
 
 To add files use the command *git add <file>* you can also add more
 than one file or a directory structure in one command line. 
 
-NOTE: TODO Expand
 
 ==== Committing Changes
 
