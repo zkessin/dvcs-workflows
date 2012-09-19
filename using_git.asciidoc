@@ -18,8 +18,15 @@ This chapter is not a full introduction to git. There are several
 excellent books on that including _Version Control with Git_ by Jon
 Loeliger and McCullough which is published by O'Reilly. That book is
 an excellent introduction to git. In addition there are several other
-books out there as well as videos which can be found on youtube and
-infoq. 
+books out there as well as videos which can be found on sites like
+youtube and infoq.
+
+In addition this chapter assumes the use of git from a command shell
+such as bash. For those who are happy using a command line this can be
+a very productive way to work. But do not assume that it is the only
+way to work with GIT or even the "correct" way. The command line is an
+effective way to work, but so are a number of Graphical git
+clients. Use which ever makes most sense to you. 
 
 === Creating a repository
 
@@ -39,7 +46,7 @@ some files for it to track. A repository without any files is not
 particularly useful, anymore than any other file system without files.
 
 To add files use the command *git add <file>* you can also add more
-than one file or a directory structure. 
+than one file or a directory structure in one command line. 
 
 NOTE: TODO Expand
 
