@@ -14,12 +14,18 @@ workings of git and HG but they are beyond the scope of this book as I
 really want to focus on how to effectively use these tools to get work
 done. How the internals work are not really important, if you care of
 course then there are a number of books, videos and web sites that
-will cover that.
+will cover how the internals work. That being said you can use both
+tools with out knowing how they index data internal. 
 
 To create a repository in HG create a directory and use the command
 +hg init+. This will create an empty hg repository to which we can add
 files.
 
+Most of the commands to work with HG are pretty similar to GIT. So you
+can add files with +hg add file* or commit with +hg commit " and so
+on. 
+
+=== Sharing HG Repositories 
 If we want to share that repository we can run the command +hg serve+
 which will open a web server on port 8000 which we can use the
 interact with the hg repository. 
