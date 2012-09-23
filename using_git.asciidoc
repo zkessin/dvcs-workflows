@@ -26,7 +26,14 @@ such as bash. For those who are happy using a command line this can be
 a very productive way to work. But do not assume that it is the only
 way to work with GIT or even the "correct" way. The command line is an
 effective way to work, but so are a number of Graphical git
-clients. Use which ever makes most sense to you. 
+clients. Use which ever makes most sense to you. In addition it is
+quite possible to use both the command line and one or more graphical
+tools.
+
+When building this book I have been using command line git tool, plus
+the emacs git interface plus the github for mac program. In this case
+I used the emacs client for most commits and the GitHub for Mac for
+handling pushing and branches.  
 
 === Creating a repository
 
@@ -126,9 +133,10 @@ this point Alice will merge her new code back into *master*.
 ==== Undoing changes
 
 If you have made a change to a file and wish to undo it for some
-reason you can undo that 
+reason you can undo that from the command line with "git reset". You
+can of course also do it from any of the graphical tools.  
 
-NOTE: TODO Finish
+
 
 ==== Removing Files
 
@@ -181,6 +189,13 @@ branch, pull into that, do any merging that may be required then merge
 it back into the development branch. 
 
 ==== Fetch
+A git *fetch* is similar to a pull in that it will fetch new commits
+from the remote repository. Unlike a pull a fetch will not do any kind
+of merging of remote data with your current branch. 
+
+........................................
+
+........................................
 
 === Pushing and Pulling
 
