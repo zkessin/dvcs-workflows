@@ -20,7 +20,35 @@ github programmaticly instead of doing them via the web interface.
 NOTE: TODO a few more examples
 
 
-BLAH BLAH BLAH
+=== CI with github and Travis CI
+
+If you are using github for hosting your product you may wish to do
+Continous Integration with your github repository. There are a number
+of ways to do this but one easy hosted solution is to use Travis CI
+(http://travis-ci.org) which is a hosted CI solution that can run
+tests with a number of different languages.
+
+Travis-Ci was started by the ruby guys, but has since expanded to
+allow testing in C, C++, Clojure, Erlang, Go, Groovy, Haskell, Java,
+JavaScript (Node.js), Perl, PHP, Python and Scala. As Travis is open
+source if you need a language that is not on that list I am sure they
+would be happy to get a pull request from you.
+
+To setup travis-ci you need to add a yml file to the repository called
++.travis.yml+ which should contain the options for how to build your
+software. 
+
+When Travis goes to build your project it will create a new virtual
+machine and then build your project based on the instructions in the
++.travis.yml+ file. At the end of the build cycle it will destroy the
+virtual machine. Thus any changes to the VM made by one run will never
+be kept. 
+
+=== A Build Tool
+
+An automated build tool...
+
+
 
 === Building a Delta Debugger
 
@@ -47,17 +75,6 @@ where the bug exists.
 
 +++++++++++++++++++++++++++++++++++++++++++++++++
 
-=== A Build Tool
-
-An automated build tool...
-
-=== CI with github
-
-If you are using github for hosting your product you may wish to do
-Continous Integration with your github repository.
-
-
-NOTE: TODO how to do this
 
 
 
