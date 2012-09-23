@@ -8,7 +8,8 @@ to the other should not require much of a learning curve.
 NOTE: HG is the chemical symbol for mercury, so that is the short
 name. All those of you who remember high school or college chemistry
 class knew that. 
-
+ 
+****************************************
 There are of course a number of technical differences in the internal
 workings of git and HG but they are beyond the scope of this book as I
 really want to focus on how to effectively use these tools to get work
@@ -16,6 +17,11 @@ done. How the internals work are not really important, if you care of
 course then there are a number of books, videos and web sites that
 will cover how the internals work. That being said you can use both
 tools with out knowing how they index data internal. 
+
+In addition git was written in C while hg is written in Python, once
+again this doesn't matter much if you are just using git and hg. 
+
+****************************************
 
 To create a repository in HG create a directory and use the command
 +hg init+. This will create an empty hg repository to which we can add
@@ -47,8 +53,10 @@ image:using_hg/hg_graph.png[]
 
 ........................................
 NOTE: run +hg serve+ will by default not run in the background but
-keep logging to the terminal, so run it on a spare tab on in a session
-with screen or tmux or the like. 
+keep logging to the terminal in the standard, HTTP log format.
+
+so run it on a spare tab on in a session with screen or tmux or the
+like.
 
 listening at http://Galileo.local:8000/ (bound to *:8000)
 127.0.0.1 - - [15/Sep/2012 21:50:31] "GET / HTTP/1.1" 200 -
