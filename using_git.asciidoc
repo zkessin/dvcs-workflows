@@ -243,21 +243,27 @@ Bob will then have a chance to review the changes that Ann made and
 integrate them into his three or reject them.
 
 
-NOTE: TODO Add diagrams and expand
-
 All of this can also be done via the Github API, but that is somewhat
 beyond the scope of this chapter.
 
+To illustrate let us use an example from the writing of this book. I
+have published this book on github and user +breskeby+ noticed a typo
+in one of these files. He had forked the repository and committed his
+change. You can see this in this graph. His change is the lower line
+in blue.
 
+image:pull_request/network_graph_before_merge.png[title="Branch Before
+Merge"]  
 
+After committing his changes +breskeby+ sent me a pull request with
+his change. In this case you see that the change he has sent to line
+3. My text is in red. While his corrected text is bellow it in green. 
 
+image:pull_request/pull_request_diff_view.png[title="Pull Request"] 
 
+In this case I chose to merge the changes into the text and now the
+network graph looks like this. 
 
-
-
-
-
-
-
-
+image:pull_request/network_graph_after_merge.png[title="Branch After
+Merge"] 
 
