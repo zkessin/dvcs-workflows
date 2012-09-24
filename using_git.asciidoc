@@ -73,7 +73,7 @@ repository.
 
 Git makes dealing with branches much easier than svn or the like. Many
 git users will create a new branch for each feature. This also allows
-you to easily throw away changes did work well by simply abandoning
+you to easily throw away changes that did'nt work well by simply abandoning
 the branch.
 
 To create a branch use *git branch <branchname>* this will create a new
