@@ -262,10 +262,17 @@ his change. In this case you see that the change he has sent to line
 image:pull_request/pull_request_diff_view.png[title="Pull Request"] 
 
 In this case I chose to merge the changes into the text and now the
-network graph looks like this. 
+network graph looks like this. Notice that in this graph the commit
+from +breskeby+ (in blue) is now in the +zkessin+ band of the graph as
+those commits are now also in my repository. 
 
 image:pull_request/network_graph_after_merge.png[title="Branch After
 Merge"] 
 
-A while latter the graph looks like this.
+A while latter the graph looks like this graph. Notice here that there
+are further commits from me. In addition there is a new commit in
+green from user +kirean+ which has not yet been merged into my
+repository. 
+ 
+image:pull_request/pull_request_later.png[title="Needs another merge"] 
 
