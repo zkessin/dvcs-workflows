@@ -267,3 +267,5 @@ network graph looks like this.
 image:pull_request/network_graph_after_merge.png[title="Branch After
 Merge"] 
 
+A while latter the graph looks like this.
+
