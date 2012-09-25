@@ -18,8 +18,8 @@ course then there are a number of books, videos and web sites that
 will cover how the internals work. That being said you can use both
 tools with out knowing how they index data internal. 
 
-In addition git was written in C while hg is written in Python, once
-again this doesn't matter much if you are just using git and hg. 
+In addition git is written in C while hg is written in Python. This
+doesn't matter if you are using git and hg.
 
 ****************************************
 
