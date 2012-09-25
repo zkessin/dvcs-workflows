@@ -1,19 +1,18 @@
 == Introducing Git and HG
 
-This book is not about version control, yes I know what it says "Using
+This book is not about version control. That is a radical statement as
+it says "Using
 Git and Mercurial" on the cover, but its not about git or
 mercurial, nor is it about software development, though most of the
 readers will be software developers. What this book is about is teams. 
 
 Its not just software, many things worth doing these days are done by
-teams of people. While most people who use github will be programmers
-and will use it to write programs. However there is no reason that
-github can not be used for many kinds of collaborations. You could use
-github to collaborate on writing a scientific paper, or a novel, or
-even this book. There are even folks on github who are using it to
-share their knitting patterns. (And for those of you who know nothing
-about knitting, to say knitters are passionate about what they do
-would be an understatement)  
+teams of people. While most people who use github are programmers
+and will use it to write programs. 
+
+Github can be used (And for
+those of you who know nothing about knitting, to say knitters are
+passionate about what they do would be an understatement)
 
 === Thanks
 
@@ -28,8 +27,9 @@ me.
 Matthew McCullough of the github training group has offered me a
 number of suggestions as well as promoted this book within github.
 
-In addition a number of people have sent me pull requests with little
-changes. Folks are listed here in alphabetical order by github user name.
+In addition a number of people have sent me pull requests with
+changes. Contributors are listed here in alphabetical order by github user
+name.
 
 * breskeby - Rene Groeschke
 * kirean   - Erik Andersson
