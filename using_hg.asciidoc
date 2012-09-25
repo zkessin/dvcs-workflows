@@ -55,8 +55,7 @@ image:using_hg/hg_graph.png[]
 NOTE: run +hg serve+ will by default not run in the background but
 keep logging to the terminal in the standard, HTTP log format.
 
-so run it on a spare tab on in a session with screen or tmux or the
-like.
+so run it on a spare tab on in a session with screen or tmux.
 
 listening at http://Galileo.local:8000/ (bound to *:8000)
 127.0.0.1 - - [15/Sep/2012 21:50:31] "GET / HTTP/1.1" 200 -
