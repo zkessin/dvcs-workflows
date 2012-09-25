@@ -21,8 +21,12 @@ don't work for that team.
 
 == Building this Book
 
-I will have the book online in HTML soon, but for now you can build
-this book by cloning this repository and running this command:
+You can find this book online at
+http://zkessin.github.com/dvcs-workflows[]. The version there should
+track the master branch here. 
+
+If you wish to build the book from the asciidoc sources install
+asciidoc and run this command
 
 ........................................
 asciidoc --backend=html5 --out-file=book.html toc.asciidoc
