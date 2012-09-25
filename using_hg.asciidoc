@@ -1,9 +1,9 @@
 == Using HG
 
-While GIT is the major DVCS in use Mercurial (also known as hg) is also
-being used by a number of projects. In many cases the basic ideas of
-git and HG are pretty similar, so if you have been using one switching
-to the other should not require much of a learning curve.
+While GIT is the major DVCS in use Mercurial (also known as hg) is
+also being used by a number of projects. In many cases the ideas of
+git and HG are similar, so if you have been using one switching to the
+other should not require much of a learning curve.
 
 NOTE: HG is the chemical symbol for mercury, so that is the short
 name. All those of you who remember high school or college chemistry
