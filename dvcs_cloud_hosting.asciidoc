@@ -1,11 +1,11 @@
 == DVCS Cloud Hosting
 
 One of the nice things about using a DVCS is that there are a number
-of very mature cloud hosting services that can e used to host your
+of very mature cloud hosting services that can be used to host your
 code. These services provide an easy way to share project files with
-team members as well as a number of tools for managing those
+team members as well as tools for managing those
 projects. Many of these services will in addition to hosting a GIT or
-HG repository will also include features like a WIKI or issue tracker
+HG repository will also include features like a wiki or issue tracker
 that are not directly related to the DVCS but can be very useful for
 management of a project.
 
@@ -21,26 +21,25 @@ disaster recovery.
 The 10,000 pound gorilla of the DVCS hosting world is github. This is
 for a good reason, github has been leading the effort to create new
 and innovative features for collaborative development. In addition
-github has in some ways become the social network for programmers, and
-the central place for development, having taken that crown from
+github has  become the social network for programmers, and
+the central place for open source development, having taken that crown from
 soruceforge several years ago.
+
+NOTE: Several people from github provided suggestions and support for
+the writing of this book. 
 
 ==== Community
 
-One of Github's goals is to provide a place for community for
+One of Github's goals is to provide a place for community of
 developers. There are a huge number of open source projects on github
 (Including this book) that can be forked and downloaded. In many ways
 github is providing the "View Source" feature for the current decade.
-on it.
-
-Github has thousands of open source projects and countless developers
-using it.  Indeed it is common to see "Fork me on github" on the web
-pages of open source projects.
 
 If your goal is to build a public project github can form the natural
-home for your project.
+home for your project. Placing it on github will allow potential users
+to find, follow and contribute to your project. 
 
-NOTE: TODO Expand
+
 
 ==== Github API and tools
 
@@ -55,6 +54,7 @@ NOTE: TODO Talk about other tools that plug into github here
 Since this API is public there is no reason that a developer can use
 this to automate part of a work flow. for more details see
 link:github_api.asciidoc[Github API]
+NOTE: TODO FIX TO an internal link
 
 === Features
 
