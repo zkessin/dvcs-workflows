@@ -58,6 +58,33 @@ NOTE: TODO FIX TO an internal link
 
 === Features
 
+Github has an amazing set of features, and between when I write this
+and when this book is published they will probably introduce a bunch
+more. So this section will not be able to cover all of the features of
+github. However there are some highlights to know about.
+
+First of all if you are viewing a file in Markdown or Asciidoc it will
+render the file for you. You can see raw text by clicking the +Raw+
+button. 
+
+It will also render most programming languages in a way that
+programmers will be used to seeing them in their editors. So keywords
+will be highlighted and so on.
+
+If you want to make a simple edit to a file in a github repository and
+do not wish to clone it to your local computer, edit the file and push
+the result back up. You can use the +Edit+ button make a change and
+then commit it to the repository directly from the web page. This is
+not the best way to write code, it is very useful if you want to do
+something simple like fix a typo in a comment.
+
+If you want to know where each line of text comes from click the
++Blame+ button which will show the file with the commit
+information. So that for each chunk of text you can see who committed
+it most recently and when.
+
+The +History+ button will allow you to see a chronological view of the
+commits to a file.  
 
 ==== Pricing
 

@@ -1,0 +1,4 @@
+== Introducing Git and HG
+
+This book is not about version control, yes I know what it says "Using
+Git" on the cover 
