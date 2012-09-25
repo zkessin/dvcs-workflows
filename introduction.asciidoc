@@ -1,4 +1,5 @@
 == Introducing Git and HG
 
 This book is not about version control, yes I know what it says "Using
-Git" on the cover 
+Git and Mercurial" on the cover, but its not about git or
+mercurial. What this book is about is teams. 

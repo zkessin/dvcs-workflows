@@ -8,7 +8,7 @@
  {Email}
  {Twitter}
 
-
+include::introduction.asciidoc[Introduction]
 include::using_git.asciidoc[Using Git]
 include::using_hg.asciidoc[Using Hg]
 include::dvcs_cloud_hosting.asciidoc[Cloud Hosting Services]
