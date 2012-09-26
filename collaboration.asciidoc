@@ -15,3 +15,24 @@ overwritten by mistake becomes an increasing difficult task.
 
 ........................................
 
+The quote in French means "Good Accounts make for good
+Friends" and is fitting. A business venture needs a good system to
+track its money, and a project needs a good system to keep track of
+the work done by its members. 
+
+Thankfully various computer programmers over the years have faced this
+problem and realizing that it was a problem built tools to try and
+solve it. These tools collectively are known as "Version Control
+Systems" Or "Revision Control Systems". The history of Version
+Control systems dates back to the 1970's and has generated significant
+progress. 
+
+The current major Version Control system is called "git" and was
+created by Linus Torvolds, when he was unable to find that existing
+systems did not meet the needs of the team that was developing the
+Linux kernel. 
+
+GIT is a very powerful tool that has a lot of features, but most of
+what is needed to work and collaborate with others can be done with a
+small enough to learn pretty quickly. 
+
