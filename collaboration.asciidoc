@@ -1,0 +1,17 @@
+== Tools for Collaboration
+
+
+When working with a group on a project you need to have a way to
+integrate the contributions of various team members. 
+
+It is possible to write in software like MS Word and email copies of
+the files around between collaborators. However this is a risky
+practice. As revisions of the file move around the number of versions
+of the file will go up. Trying to ensure that changes are not
+overwritten by mistake becomes an increasing difficult task. 
+
+
+........................................
+
+........................................
+
