@@ -34,5 +34,17 @@ Linux kernel.
 
 GIT is a very powerful tool that has a lot of features, but most of
 what is needed to work and collaborate with others can be done with a
-small enough to learn pretty quickly. 
+small enough to learn pretty quickly. In addition while many git
+tutorials show how to use git from a command line there are now many
+very nice graphical tools to enable the use of git without having to
+ever see a command line if you don't want too.
+
+The use of git is greatly enhanced by link:http://github.com[Github] a
+company that was founded in 2008 to facilitate using git to
+collaborate on software projects. Since the Github has grown to become
+the most popular site for building collaborations in the open source
+software community.
+
+
+
 
