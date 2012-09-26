@@ -13,7 +13,7 @@ overwritten by mistake becomes an increasing difficult task.
 
 
 ........................................
-
+QUOTE IN FRENCH HERE
 ........................................
 
 The quote in French means "Good Accounts make for good
@@ -31,6 +31,10 @@ progress.
 The way version control systems work is they track files and changes
 to those files. So it is possible to see the history of changes to a
 file and when each line was last changed and by whom. 
+
+This allows project members to say that they all the same version of a
+file, and to ensure that everyone's changes have been accounted for
++TODO Expand+ 
 
 The current major Version Control system is called "git" and was
 created by Linus Torvolds, when he was unable to find that existing
