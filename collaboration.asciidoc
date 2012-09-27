@@ -81,28 +81,30 @@ Lisa made and allow Bob to safely merge her changes. We will see
 an example of how to do this in <<pull_request, Pull Request>>. 
 
 
-.SHA1
-........................................
+==== SHA1
+
 SHA1 is a cryptographic hash that when you apply it to data will
 return a 40 character string that looks like this,
 *3fee35069bb9591edc3ab76f44b69c7b2d44be88*. Note you can not recover
 the original files from that hash, SHA1 is strictly a one way
 function. 
 
+
 In general you will see a shorter form that looks like *3fee350*. In
 this case git will use as short a version of the string as it can as
 long as it is unique.
 
+
 The details of how SHA1 turns arbitrary data into a hash are rather
 technical. If you want to know more about how SHA1 works you can look
 on link:http://en.wikipedia.org/wiki/Sha1[WIkipedia]. 
+
 
 The thing to remember is that the chances that two SHA1 keys will be
 the same while the files are not is  1:10^48^. That is close enough to
 0 for me. 
 
 
-........................................
 
 === Github
 
