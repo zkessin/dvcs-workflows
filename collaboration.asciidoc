@@ -1,4 +1,3 @@
-
 ==  Tools for Collaboration
 
 
@@ -7,25 +6,24 @@ integrate the contributions of various team members.
 
 It is possible to write in software like MS Word and email copies of
 the files around between collaborators. However this is a risky
-practice. As revisions of the file move around the number of versions
+practice. As revisions of the file move around, the number of versions
 of the file will go up. Trying to ensure that changes are not
-overwritten by mistake becomes an increasing difficult task. 
+overwritten by mistake becomes an increasingly difficult task. 
 
 Given enough contributers and enough versions of the file it is
 inevitable that someone's changes will get lost or that an older
-version of a paragraph will suddenly return when someone used the
+version of a paragraph will suddenly return when someone uses the
 wrong version of a file. 
 
-Sharing the file on a site like dropbox is also not a solution as if
+Sharing the file on a site like dropbox is also not a solution because if
 more than one person wishes to edit at the same time it is impossible
 to know which version of the file will be there when everyone is done.
 
 
-== QUOTE IN FRENCH HERE
-
+Les bons comptes font les bons amis.
 
 The quote in French means "Good Accounts make for good
-Friends" and is fitting. A business venture needs a good system to
+friends" and is fitting. A business venture needs a good system to
 track its money, and a project needs a good system to keep track of
 the work done by its members. 
 
