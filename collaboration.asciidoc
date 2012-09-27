@@ -20,12 +20,40 @@ more than one person wishes to edit at the same time it is impossible
 to know which version of the file will be there when everyone is done.
 
 
-=== Les bons comptes font les bons amis.
+=== Les bons comptes font les bons amis
 
-The quote in French means "Good Accounts make for good
-friends" and is fitting. A business venture needs a good system to
+The quote in French means "Good accounts make for good
+friends" and is fitting. As business venture needs a good system to
 track its money, and a project needs a good system to keep track of
-the work done by its members. 
+the work done by its members.
+
+A project can be any form of creative work, a computer program, a
+Novel, this book, a set of knitting patterns and so forth. Most
+projects will consist of one or more files that will reside on the
+computers of the project members. 
+
+As an example take this book. It consists of around 20 or so files
+that contain the actual text of the book, one for each chapter or
+section, and then a bunch of other files that contain things like the
+images that are included and a few random others. 
+
+As the book is being written we want to be able to share those
+documents between the writers, reviewers, editors, and in this case
+the world at large. Other projects will be shared in different ways.
+
+In order to make this collaboration work we need two things. First a
+way to share the documents between the project members, and secondly a
+set of rules on how those contributors will work together. 
+
+It is all fine and good to say that it is possible to know if two
+users have the same version of a file, or how their copies differ, but
+if you have 20 people attempting to assemble a complex project you
+need a way to organize people so that tasks can be managed. 
+
+This book will attempt to lay out how to construct a system that will
+work for your team, by showing how different teams have faced these
+problems and mapping out their solutions. 
+ 
 
 === Version Control 
 Thankfully various computer programmers over the years have faced this
