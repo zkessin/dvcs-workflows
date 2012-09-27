@@ -2,7 +2,7 @@
 ==  Tools for Collaboration
 
 
-When working with a group on a project you need to have a way to
+When working with a group on a project, you need to have a way to
 integrate the contributions of various team members. 
 
 It is possible to write in software like MS Word and email copies of
@@ -11,35 +11,38 @@ practice. As revisions of the file move around the number of versions
 of the file will go up. Trying to ensure that changes are not
 overwritten by mistake becomes an increasing difficult task. 
 
+Given enough contributers and enough versions of the file it is
+inevitable that someone's changes will get lost or that an older
+version of a paragraph will suddenly return when someone used the
+wrong version of a file. 
 
-........................................
-QUOTE IN FRENCH HERE
-........................................
+Sharing the file on a site like dropbox is also not a solution as if
+more than one person wishes to edit at the same time it is impossible
+to know which version of the file will be there when everyone is done.
+
+
+== QUOTE IN FRENCH HERE
+
 
 The quote in French means "Good Accounts make for good
 Friends" and is fitting. A business venture needs a good system to
 track its money, and a project needs a good system to keep track of
 the work done by its members. 
 
+=== Version Control 
 Thankfully various computer programmers over the years have faced this
-problem and realizing that it was a problem built tools to try and
+problem and realizing that it was a problem, built tools to try and
 solve it. These tools collectively are known as "Version Control
 Systems" Or "Revision Control Systems". The history of Version
 Control systems dates back to the 1970's and has generated significant
 progress. 
 
-The way version control systems work is they track files and changes
-to those files. So it is possible to see the history of changes to a
-file and when each line was last changed and by whom. 
-
-This allows project members to say that they all the same version of a
-file, and to ensure that everyone's changes have been accounted for
-+TODO Expand+ 
-
 The current major Version Control system is called "git" and was
 created by Linus Torvolds, when he was unable to find that existing
 systems did not meet the needs of the team that was developing the
 Linux kernel. 
+
+=== GIT
 
 GIT is a very powerful tool that has a lot of features, but most of
 what is needed to work and collaborate with others can be done with a
@@ -48,12 +51,67 @@ tutorials show how to use git from a command line there are now many
 very nice graphical tools to enable the use of git without having to
 ever see a command line if you don't want too.
 
+The way version control systems work is they track files and changes
+to those files. So it is possible to see the history of changes to a
+file and when each line was last changed and by whom. 
+
+This allows project members to say that they all the same version of a
+file, and to ensure that everyone's changes have been accounted
+for. Git allows users to ensure that they have the same version of the
+project files by applying a mathematical function called SHA1 to the
+files in a project. At any given time the files committed to a project
+will have a unique SHA1 key.
+
+Furthermore, if two members of project team have a project directory
+with the same SHA1 key they can be sure that the files in the project
+are the same. 
+
+Every time files are changed in a project git will create a new SHA1
+key for the project. So if Bob and Lisa want to know if they have the
+same files  they do not have to check every file for changes they can
+just compare their keys. If they match they know that the files are
+the same. 
+
+However if they are not the same git can look at the history of the
+files and figure out what has changed. So if Bob has sent Lisa  file
+for editing and she made some changes, git will use the SHA1 keys to
+compare the history of the files. In this case it will see that Bob's
+files are an ancestor to Lisa's. It can then know exactly what changes
+Lisa made and allow Bob to safely merge her changes. We will see
+an example of how to do this in <<pull_request, Pull Request>>. 
+
+
+.SHA1
+........................................
+SHA1 is a cryptographic hash that when you apply it to data will
+return a 40 character string that looks like this,
+*3fee35069bb9591edc3ab76f44b69c7b2d44be88*. Note you can not recover
+the original files from that hash, SHA1 is strictly a one way
+function. 
+
+In general you will see a shorter form that looks like *3fee350*. In
+this case git will use as short a version of the string as it can as
+long as it is unique.
+
+The details of how SHA1 turns arbitrary data into a hash are rather
+technical. If you want to know more about how SHA1 works you can look
+on link:http://en.wikipedia.org/wiki/Sha1[WIkipedia]. 
+
+The thing to remember is that the chances that two SHA1 keys will be
+the same while the files are not is  1:10^48^. That is close enough to
+0 for me. 
+
+
+........................................
+
+=== Github
+
 The use of git is greatly enhanced by link:http://github.com[Github] a
 company that was founded in 2008 to facilitate using git to
 collaborate on software projects. Since the Github has grown to become
 the most popular site for building collaborations in the open source
 software community.
 
-
-
-
+Github is itself a distributed company with its team spread out all
+over the place so they not only develop the tools for working with
+distributed teams, they use them ever day. 
