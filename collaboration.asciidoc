@@ -20,7 +20,7 @@ more than one person wishes to edit at the same time it is impossible
 to know which version of the file will be there when everyone is done.
 
 
-Les bons comptes font les bons amis.
+=== Les bons comptes font les bons amis.
 
 The quote in French means "Good Accounts make for good
 friends" and is fitting. A business venture needs a good system to
