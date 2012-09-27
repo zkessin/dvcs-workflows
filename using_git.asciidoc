@@ -217,7 +217,7 @@ repository will have all three sets of changes. This is very different
 from sending a patch file where there is no change history.
 
 === A Pull Request
-
+[[pull_request]]
 Of course if Ann is going to pull changes from Bob she needs a way to
 know that she should pull his changes. If Ann and Bob are sitting next
 to each other Bob may just say to Ann "Ok pull my changes" and let her
