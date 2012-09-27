@@ -33,3 +33,4 @@ name.
 
 * breskeby - Rene Groeschke
 * kirean   - Erik Andersson
+* rkessin  - Richard Kessin
