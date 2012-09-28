@@ -1,10 +1,9 @@
 == Introducing Git and HG
 
 This book is not about version control. That is a radical statement as
-it says "Using
-Git and Mercurial" on the cover, but its not about git or
-mercurial, nor is it about software development, though most of the
-readers will be software developers. What this book is about is teams. 
+it says "Using Git and Mercurial" on the cover, but its not about git
+or mercurial, nor is it about software development, though most of the
+readers will be software developers. What this book is about is teams.
 
 Its not just software, many things worth doing these days are done by
 teams of people. While most people who use github are programmers
