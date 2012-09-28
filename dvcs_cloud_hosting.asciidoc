@@ -23,10 +23,18 @@ for a good reason, github has been leading the effort to create new
 and innovative features for collaborative development. In addition
 github has  become the social network for programmers, and
 the central place for open source development, having taken that crown from
-soruceforge several years ago.
+Soruceforge several years ago.
 
 NOTE: Several people from github provided suggestions and support for
 the writing of this book. 
+
+Github has become a leader in the field for a number of reasons. But
+one of them is that they practice what they preach. Github is very
+much a distributed company with people all over the world. So before
+they release tools to the world, they have used them internally. In
+addition their internal use of these tools is not just the standard
+run threw QA testing but actual use when things have to get done. 
+
 
 ==== Community
 
@@ -39,7 +47,7 @@ If your goal is to build a public project github can form the natural
 home for your project. Placing it on github will allow potential users
 to find, follow and contribute to your project. 
 
-
+TODO: Expand
 
 ==== Github API and tools
 
@@ -49,12 +57,15 @@ building applications with PhoneGap it is possible to point PhoneGap
 at the correct github repository and then have PhoneGap simply pull
 the correct files from Github.
 
-NOTE: TODO Talk about other tools that plug into github here
+When you want to use the Github API you have to give the application
+permission to use it. So the API will also allow access to your
+private repositories. 
 
 Since this API is public there is no reason that a developer can use
 this to automate part of a work flow. for more details see
-link:github_api.asciidoc[Github API]
-NOTE: TODO FIX TO an internal link
+xref:github_api[Using the Github API].
+
+
 
 === Features
 
@@ -92,8 +103,9 @@ Github is a business and of course it costs money to run, so it
 should come as no shock that they charge for hosting. In order to
 build community public projects, like this ebook, are hosted for
 free. However private projects cost money to create. Bitbucket's plans
-are priced by number of repositories.  For details of how much it
-costs check the github web site.
+are priced by number of repositories. For details of what plans are
+available look at link:http://github.com/settings/billing[Github
+Billing] which will contain the current information. 
 
 At the time of this writing github charges $7 a month for up to five
 repositories. If that is not enough then there are a number of plans
@@ -155,10 +167,6 @@ If you are a student you might be eligible for a free unlimited
 account. 
 
 ==== Stash - Enterprise Bitbucket
-
-
-
-
 
 There are of course other git and hg hosting repositories out there,
 and you can find them via a google search easily enough. Of course you
