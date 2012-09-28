@@ -19,7 +19,7 @@ the normal git commands that you might want to use from a command
 line. 
 
 === Emacs
-==== Using Git with Emacs
+==== Using Git and HG with Emacs
 
 If you are an emacs user who has worked with other VCS systems such as
 CVS or SVN in emacs then you may wish to also work with GIT or HG in
@@ -34,7 +34,10 @@ the status bar that says _Git:<branch name>_. If you click on that you
 will get a menu that will show you all of the various options for git
 under emacs. 
 
-==== Using HG with Emacs 
+In HG you sill see something similar but it will show a slightly
+different status bar message. *TODO Expand*
+
+
 
 
 
@@ -43,13 +46,33 @@ under emacs.
 ==== Tortoise GIT
 
 If you have used the Tortoise Client for CVS or SVN you will be
-happy to know that they also have a GIT client.
+happy to know that they also have a GIT client. 
 
 ==== Tortoise HG
 
 
-==== Github For windows?
+==== Github For windows
 
+Github also has a great client for windows. Sporting a very nice
+Windows 8 Metro theme it can be found at
+link:http://windows.github.com[]. Github for windows will work with
+Windows XP, Vista, 7 and 8. 
+
+While setting up GIT for windows can be a pain in the neck *Github for
+Windows* is an easy install. It installs a self contained git install
+that will not require anything else. 
+
+When you first install github for windows it will ask you for your
+github user and password. It will then setup an SSH key so that it can
+connect to github.
+
+If you install Github for windows and want to from time to time use a
+command line then you can do that. It installs
+link:https://github.com/dahlbyk/posh-git[Posh Git] which is a command
+line git client that will also use the same ssh key and other settings
+as the rest of Gihbu For windows.
+
+TODO: Screen shots
 
 === Mac
 
@@ -64,7 +87,8 @@ The folks at Github, as part of their effort to improve the git
 ecosystem have their own Git client for the mac, You can download it
 from link:http://mac.github.com/[] or by going to
 link:http://www.github.com[] and selecting Github for Mac at the
-bottom of the page. 
+bottom of the page. Github for Mac works with Mac OS 10.7 (Lion) and
+later. 
 
 Note: you do not need to use github for mac only with Github, it will
 work with any git repository. So if you host your public projects on
@@ -82,7 +106,6 @@ about you can do that from the file menu.
 
 image:graphical_git/mac_github/repositories.png[title="Repositories Screen"]
 
-NOTE: TODO How to clone a repo?
 
 When you select a repository you are presented with a panel with four
 buttons on the side, that cover most of the options that you would
@@ -115,11 +138,11 @@ file
 image:graphical_git/mac_github/settings.png[title="Settings Screen"]
 
 You can also do a push or a pull from the client. to do a push hit
-command-P and a pull can be done with Command-Shift-P.
+command-P and a pull can be done with Command-Shift-P. The default way
+to sync with a server from Github for mac is to use the "Sync" button
+which will do a push and a pull at once. 
 
 Nicely it will also work with other git clients (as you would expect)
-so you can commit changes with emacs and review them with the github
+so you can commit changes with eclipse and review them with the github
 client. 
 
-
-==== Sourcetree
