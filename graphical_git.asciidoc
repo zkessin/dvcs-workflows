@@ -39,16 +39,16 @@ different status bar message. *TODO Expand*
 
 
 
-
-
-
 === Windows 
-==== Tortoise GIT
+==== Tortoise GIT & HG
 
 If you have used the Tortoise Client for CVS or SVN you will be
-happy to know that they also have a GIT client. 
+happy to know that they also have clients for GIT and HG. Both provide
+menus in the windows explorer. 
 
-==== Tortoise HG
+TODO *EXPAND*
+
+
 
 
 ==== Github For windows
