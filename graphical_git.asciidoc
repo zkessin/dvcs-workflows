@@ -1,4 +1,6 @@
-== Graphical Git Front-ends
+
+[[git_gui]]
+== GUI Git Front-ends
 
 I will confess to being a long time linux and Emacs user. As such
 moving from CVS and SVN to GIT and HG was pretty easy. The Emacs VCS
