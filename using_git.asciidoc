@@ -25,13 +25,13 @@ In addition this chapter assumes the use of git from a command shell
 such as bash. For those who are happy using a command line this can be
 a very productive way to work. But do not assume that it is the only
 way to work with GIT or even the "correct" way. The command line is an
-effective way to work, but so are a number of Graphical git
-clients. Use which ever makes most sense to you. In addition it is
-quite possible to use both the command line and one or more graphical
-tools.
+effective way to work, but so are a number of Graphical git clients
+which are covered in xref:git_gui[GUI Git Front Ends]. Use which ever
+makes most sense to you. In addition it is quite possible to use both
+the command line and one or more graphical tools.
 
-When building this book I have been using command line git tool, plus
-the emacs git interface plus the github for mac program. In this case
+When building this book I have been using command line git tool, and
+the Emacs git interface and the github for mac program. In this case
 I used the emacs client for most commits and the GitHub for Mac for
 handling pushing and branches.  
 
@@ -64,7 +64,7 @@ will open an editor to let you create a commit message. If you want to
 supply one on the command line use *git commit -m "My Commit Message"
 file*.
 
-Warning: unlike CVS and SVN if you do a commit in a subdirectory it
+WARNING: unlike CVS and SVN if you do a commit in a subdirectory it
 will commit all files in the repository, not just those in the current
 repository.
 
@@ -216,8 +216,9 @@ changes from Bob who has pulled changes from Charlie, the final
 repository will have all three sets of changes. This is very different
 from sending a patch file where there is no change history.
 
-=== A Pull Request
 [[pull_request]]
+=== A Pull Request
+
 Of course if Ann is going to pull changes from Bob she needs a way to
 know that she should pull his changes. If Ann and Bob are sitting next
 to each other Bob may just say to Ann "Ok pull my changes" and let her
