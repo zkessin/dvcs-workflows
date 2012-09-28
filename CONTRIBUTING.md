@@ -39,6 +39,8 @@ workflows.asciidoc document and send a pull request to user "zkessin"
 There are a number of sections that need improving, if you want to
 write something here is a list of what needs doing.  
 
+Other sections that need expanding are marked with the word "TODO"
+
 * Tortoise GIT & HG in Graphical git
 * Screen Shots for Github for windows
-* 
+ 
