@@ -1,5 +1,5 @@
 == Using the Github API
-
+[[github_api]]
 Once you know how you want to setup a work flow you may wish to
 automate some or all of it, to make the life of your team easier. This
 way you can provide a set of tools, which can be run from a command
