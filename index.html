@@ -750,9 +750,8 @@ asciidoc.install();
 <h2 id="_introducing_git_and_hg">Introducing Git and HG</h2>
 <div class="sectionbody">
 <div class="paragraph"><p>This book is not about version control. That is a radical statement as
-it says "Using
-Git and Mercurial" on the cover, but its not about git or
-mercurial, nor is it about software development, though most of the
+it says "Using Git and Mercurial" on the cover, but its not about git
+or mercurial, nor is it about software development, though most of the
 readers will be software developers. What this book is about is teams.</p></div>
 <div class="paragraph"><p>Its not just software, many things worth doing these days are done by
 teams of people. While most people who use github are programmers
@@ -784,6 +783,11 @@ breskeby - Rene Groeschke
 kirean   - Erik Andersson
 </p>
 </li>
+<li>
+<p>
+rkessin  - Richard Kessin
+</p>
+</li>
 </ul></div>
 </div>
 </div>
@@ -791,45 +795,131 @@ kirean   - Erik Andersson
 <div class="sect1">
 <h2 id="_tools_for_collaboration">Tools for Collaboration</h2>
 <div class="sectionbody">
-<div class="paragraph"><p>When working with a group on a project you need to have a way to
+<div class="paragraph"><p>When working with a group on a project, you need to have a way to
 integrate the contributions of various team members.</p></div>
 <div class="paragraph"><p>It is possible to write in software like MS Word and email copies of
 the files around between collaborators. However this is a risky
-practice. As revisions of the file move around the number of versions
+practice. As revisions of the file move around, the number of versions
 of the file will go up. Trying to ensure that changes are not
-overwritten by mistake becomes an increasing difficult task.</p></div>
-<div class="literalblock">
-<div class="content monospaced">
-<pre></pre>
-</div></div>
-<div class="paragraph"><p>The quote in French means "Good Accounts make for good
-Friends" and is fitting. A business venture needs a good system to
+overwritten by mistake becomes an increasingly difficult task.</p></div>
+<div class="paragraph"><p>Given enough contributers and enough versions of the file it is
+inevitable that someone&#8217;s changes will get lost or that an older
+version of a paragraph will suddenly return when someone uses the
+wrong version of a file.</p></div>
+<div class="paragraph"><p>Sharing the file on a site like dropbox is also not a solution because if
+more than one person wishes to edit at the same time it is impossible
+to know which version of the file will be there when everyone is done.</p></div>
+<div class="sect2">
+<h3 id="_les_bons_comptes_font_les_bons_amis">Les bons comptes font les bons amis</h3>
+<div class="paragraph"><p>The quote in French means "Good accounts make for good
+friends" and is fitting. As business venture needs a good system to
 track its money, and a project needs a good system to keep track of
 the work done by its members.</p></div>
+<div class="paragraph"><p>A project can be any form of creative work, a computer program, a
+Novel, this book, a set of knitting patterns and so forth. Most
+projects will consist of one or more files that will reside on the
+computers of the project members.</p></div>
+<div class="paragraph"><p>As an example take this book. It consists of around 20 or so files
+that contain the actual text of the book, one for each chapter or
+section, and then a bunch of other files that contain things like the
+images that are included and a few random others.</p></div>
+<div class="paragraph"><p>As the book is being written we want to be able to share those
+documents between the writers, reviewers, editors, and in this case
+the world at large. Other projects will be shared in different ways.</p></div>
+<div class="paragraph"><p>In order to make this collaboration work we need two things. First a
+way to share the documents between the project members, and secondly a
+set of rules on how those contributors will work together.</p></div>
+<div class="paragraph"><p>It is all fine and good to say that it is possible to know if two
+users have the same version of a file, or how their copies differ, but
+if you have 20 people attempting to assemble a complex project you
+need a way to organize people so that tasks can be managed.</p></div>
+<div class="paragraph"><p>This book will attempt to lay out how to construct a system that will
+work for your team, by showing how different teams have faced these
+problems and mapping out their solutions.</p></div>
+</div>
+<div class="sect2">
+<h3 id="_version_control">Version Control</h3>
 <div class="paragraph"><p>Thankfully various computer programmers over the years have faced this
-problem and realizing that it was a problem built tools to try and
+problem and realizing that it was a problem, built tools to try and
 solve it. These tools collectively are known as "Version Control
 Systems" Or "Revision Control Systems". The history of Version
 Control systems dates back to the 1970&#8217;s and has generated significant
 progress.</p></div>
-<div class="paragraph"><p>The way version control systems work is they track files and changes
-to those files. So it is possible to see the history of changes to a
-file and when each line was last changed and by whom.</p></div>
-<div class="paragraph"><p>The current major Version Control system is called "git" and was
+<div class="paragraph"><p>The current major Version Control yysystem is called "git" and was
 created by Linus Torvolds, when he was unable to find that existing
 systems did not meet the needs of the team that was developing the
 Linux kernel.</p></div>
+</div>
+<div class="sect2">
+<h3 id="_git">GIT</h3>
 <div class="paragraph"><p>GIT is a very powerful tool that has a lot of features, but most of
 what is needed to work and collaborate with others can be done with a
 small enough to learn pretty quickly. In addition while many git
 tutorials show how to use git from a command line there are now many
 very nice graphical tools to enable the use of git without having to
 ever see a command line if you don&#8217;t want too.</p></div>
+<div class="paragraph"><p>The way version control systems work is they track files and changes
+to those files. So it is possible to see the history of changes to a
+file and when each line was last changed and by whom.</p></div>
+<div class="paragraph"><p>This allows project members to say that they all the same version of a
+file, and to ensure that everyone&#8217;s changes have been accounted
+for. Git allows users to ensure that they have the same version of the
+project files by applying a mathematical function called SHA1 to the
+files in a project. At any given time the files committed to a project
+will have a unique SHA1 key.</p></div>
+<div class="paragraph"><p>Furthermore, if two members of project team have a project directory
+with the same SHA1 key they can be sure that the files in the project
+are the same.</p></div>
+<div class="paragraph"><p>Every time files are changed in a project git will create a new SHA1
+key for the project. So if Bob and Lisa want to know if they have the
+same files  they do not have to check every file for changes they can
+just compare their keys. If they match they know that the files are
+the same.</p></div>
+<div class="paragraph"><p>However if they are not the same git can look at the history of the
+files and figure out what has changed. So if Bob has sent Lisa  file
+for editing and she made some changes, git will use the SHA1 keys to
+compare the history of the files. In this case it will see that Bob&#8217;s
+files are an ancestor to Lisa&#8217;s. It can then know exactly what changes
+Lisa made and allow Bob to safely merge her changes. We will see
+an example of how to do this in <a href="#pull_request">Pull Request</a>.</p></div>
+<div class="sect3">
+<h4 id="_sha1">SHA1</h4>
+<div class="paragraph"><p>SHA1 is a cryptographic hash that when you apply it to data will
+return a 40 character string that looks like this,
+<strong>3fee35069bb9591edc3ab76f44b69c7b2d44be88</strong>.</p></div>
+<div class="admonitionblock">
+<table><tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">you can not recover the original files from that hash, SHA1 is
+strictly a one way function.</td>
+</tr></table>
+</div>
+<div class="paragraph"><p>In general you will see a shorter form that looks like <strong>3fee350</strong>. In
+this case git will use as short a version of the string as it can as
+long as it is unique. Git does this because the developers realized
+that having to use a 40 character string would be difficult for
+users.</p></div>
+<div class="paragraph"><p>The details of how SHA1 turns arbitrary data into a hash are rather
+technical. If you want to know more about how SHA1 works you can look
+on <a href="http://en.wikipedia.org/wiki/Sha1">WIkipedia</a>.</p></div>
+<div class="paragraph"><p>The thing to remember is that the chances that two SHA1 keys will be
+the same while the files are not is  1:10<sup>48</sup>. That is close enough to
+0 for me.</p></div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_github">Github</h3>
 <div class="paragraph"><p>The use of git is greatly enhanced by <a href="http://github.com">Github</a> a
 company that was founded in 2008 to facilitate using git to
 collaborate on software projects. Since the Github has grown to become
 the most popular site for building collaborations in the open source
 software community.</p></div>
+<div class="paragraph"><p>Github is itself a distributed company with its team spread out all
+over the place so they not only develop the tools for working with
+distributed teams, they use them ever day.</p></div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -1033,7 +1123,7 @@ from sending a patch file where there is no change history.</p></div>
 </div>
 <div class="sect2">
 <h3 id="_a_pull_request">A Pull Request</h3>
-<div class="paragraph"><p>Of course if Ann is going to pull changes from Bob she needs a way to
+<div class="paragraph" id="pull_request"><p>Of course if Ann is going to pull changes from Bob she needs a way to
 know that she should pull his changes. If Ann and Bob are sitting next
 to each other Bob may just say to Ann "Ok pull my changes" and let her
 know the URL of the repository and which branch the changes are
@@ -1195,7 +1285,7 @@ site backup, which can provide an important level of safety for a
 small company that might not have procedures in place for backups or
 disaster recovery.</p></div>
 <div class="sect2">
-<h3 id="_github">Github</h3>
+<h3 id="_github_2">Github</h3>
 <div class="paragraph"><p>The 10,000 pound gorilla of the DVCS hosting world is github. This is
 for a good reason, github has been leading the effort to create new
 and innovative features for collaborative development. In addition
@@ -2179,7 +2269,7 @@ client.</p></div>
 <div id="footnotes"><hr></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2012-09-26 21:29:30 IST
+Last updated 2012-09-27 11:38:30 IST
 </div>
 </div>
 </body>
