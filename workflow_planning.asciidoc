@@ -1,10 +1,16 @@
 == Work flow Planning
 
-One of the great advantages of a DVCS, like git or hg,  is that there is not one
-prescribed work flow. Teams are free to figure out what will work best
-for them. The great disadvantage is that since there is not one
-prescribed work flow teams have to figure that out.
+Git and HG solve part of the problem of how can a team work together
+and keep everything in sync. Which is to say that they solve the
+technical part of the problem. Of course these tools are only as good
+as the teams that use them. If used badly they can make a very well
+regimented mess where team members have histories of what they have
+done but trying to figure out how it all fits together is a
+nightmare. 
 
+To avoid this a team needs clear guidelines on how and when to
+integrate merges. Those guidelines along with the ideas of how to use
+github form a workflow. 
 
 To figure out what type of work flow several questions will have to be
 asked. There are several attributes of a project and a team that have
