@@ -845,7 +845,7 @@ solve it. These tools collectively are known as "Version Control
 Systems" Or "Revision Control Systems". The history of Version
 Control systems dates back to the 1970&#8217;s and has generated significant
 progress.</p></div>
-<div class="paragraph"><p>The current major Version Control yysystem is called "git" and was
+<div class="paragraph"><p>The current major Version Control system is called "git" and was
 created by Linus Torvolds, when he was unable to find that existing
 systems did not meet the needs of the team that was developing the
 Linux kernel.</p></div>
@@ -948,12 +948,12 @@ youtube and infoq.</p></div>
 such as bash. For those who are happy using a command line this can be
 a very productive way to work. But do not assume that it is the only
 way to work with GIT or even the "correct" way. The command line is an
-effective way to work, but so are a number of Graphical git
-clients. Use which ever makes most sense to you. In addition it is
-quite possible to use both the command line and one or more graphical
-tools.</p></div>
-<div class="paragraph"><p>When building this book I have been using command line git tool, plus
-the emacs git interface plus the github for mac program. In this case
+effective way to work, but so are a number of Graphical git clients
+which are covered in <a href="#git_gui">GUI Git Front Ends</a>. Use which ever
+makes most sense to you. In addition it is quite possible to use both
+the command line and one or more graphical tools.</p></div>
+<div class="paragraph"><p>When building this book I have been using command line git tool, and
+the Emacs git interface and the github for mac program. In this case
 I used the emacs client for most commits and the GitHub for Mac for
 handling pushing and branches.</p></div>
 <div class="sect2">
@@ -979,9 +979,16 @@ changes that have been made.  to do this you use <strong>git commit</strong>. Gi
 will open an editor to let you create a commit message. If you want to
 supply one on the command line use <strong>git commit -m "My Commit Message"
 file</strong>.</p></div>
-<div class="paragraph"><p>Warning: unlike CVS and SVN if you do a commit in a subdirectory it
+<div class="admonitionblock">
+<table><tr>
+<td class="icon">
+<div class="title">Warning</div>
+</td>
+<td class="content">unlike CVS and SVN if you do a commit in a subdirectory it
 will commit all files in the repository, not just those in the current
-repository.</p></div>
+repository.</td>
+</tr></table>
+</div>
 </div>
 <div class="sect3">
 <h4 id="_branching_and_merging">Branching and Merging</h4>
@@ -1122,8 +1129,8 @@ repository will have all three sets of changes. This is very different
 from sending a patch file where there is no change history.</p></div>
 </div>
 <div class="sect2">
-<h3 id="_a_pull_request">A Pull Request</h3>
-<div class="paragraph" id="pull_request"><p>Of course if Ann is going to pull changes from Bob she needs a way to
+<h3 id="pull_request">A Pull Request</h3>
+<div class="paragraph"><p>Of course if Ann is going to pull changes from Bob she needs a way to
 know that she should pull his changes. If Ann and Bob are sitting next
 to each other Bob may just say to Ann "Ok pull my changes" and let her
 know the URL of the repository and which branch the changes are
@@ -2139,7 +2146,7 @@ where the bug exists.</p></div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_graphical_git_front_ends">Graphical Git Front-ends</h2>
+<h2 id="git_gui">GUI Git Front-ends</h2>
 <div class="sectionbody">
 <div class="paragraph"><p>I will confess to being a long time linux and Emacs user. As such
 moving from CVS and SVN to GIT and HG was pretty easy. The Emacs VCS
@@ -2157,7 +2164,7 @@ line.</p></div>
 <div class="sect2">
 <h3 id="_emacs">Emacs</h3>
 <div class="sect3">
-<h4 id="_using_git_with_emacs">Using Git with Emacs</h4>
+<h4 id="_using_git_and_hg_with_emacs">Using Git and HG with Emacs</h4>
 <div class="paragraph"><p>If you are an emacs user who has worked with other VCS systems such as
 CVS or SVN in emacs then you may wish to also work with GIT or HG in
 emacs. Thankfully Emacs has good integration with both git and HG. In
@@ -2169,23 +2176,37 @@ means in those four systems is not the same).</p></div>
 the status bar that says <em>Git:&lt;branch name&gt;</em>. If you click on that you
 will get a menu that will show you all of the various options for git
 under emacs.</p></div>
-</div>
-<div class="sect3">
-<h4 id="_using_hg_with_emacs">Using HG with Emacs</h4>
+<div class="paragraph"><p>In HG you sill see something similar but it will show a slightly
+different status bar message. <strong>TODO Expand</strong></p></div>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_windows">Windows</h3>
 <div class="sect3">
-<h4 id="_tortoise_git">Tortoise GIT</h4>
+<h4 id="_tortoise_git_amp_hg">Tortoise GIT &amp; HG</h4>
 <div class="paragraph"><p>If you have used the Tortoise Client for CVS or SVN you will be
-happy to know that they also have a GIT client.</p></div>
+happy to know that they also have clients for GIT and HG. Both provide
+menus in the windows explorer.</p></div>
+<div class="paragraph"><p>TODO <strong>EXPAND</strong></p></div>
 </div>
 <div class="sect3">
-<h4 id="_tortoise_hg">Tortoise HG</h4>
-</div>
-<div class="sect3">
-<h4 id="_github_for_windows">Github For windows?</h4>
+<h4 id="_github_for_windows">Github For windows</h4>
+<div class="paragraph"><p>Github also has a great client for windows. Sporting a very nice
+Windows 8 Metro theme it can be found at
+<a href="http://windows.github.com">http://windows.github.com</a>. Github for windows will work with
+Windows XP, Vista, 7 and 8.</p></div>
+<div class="paragraph"><p>While setting up GIT for windows can be a pain in the neck <strong>Github for
+Windows</strong> is an easy install. It installs a self contained git install
+that will not require anything else.</p></div>
+<div class="paragraph"><p>When you first install github for windows it will ask you for your
+github user and password. It will then setup an SSH key so that it can
+connect to github.</p></div>
+<div class="paragraph"><p>If you install Github for windows and want to from time to time use a
+command line then you can do that. It installs
+<a href="https://github.com/dahlbyk/posh-git">Posh Git</a> which is a command
+line git client that will also use the same ssh key and other settings
+as the rest of Gihbu For windows.</p></div>
+<div class="paragraph"><p>TODO: Screen shots</p></div>
 </div>
 </div>
 <div class="sect2">
@@ -2200,7 +2221,8 @@ there are a few free options.</p></div>
 ecosystem have their own Git client for the mac, You can download it
 from <a href="http://mac.github.com/">http://mac.github.com/</a> or by going to
 <a href="http://www.github.com">http://www.github.com</a> and selecting Github for Mac at the
-bottom of the page.</p></div>
+bottom of the page. Github for Mac works with Mac OS 10.7 (Lion) and
+later.</p></div>
 <div class="paragraph"><p>Note: you do not need to use github for mac only with Github, it will
 work with any git repository. So if you host your public projects on
 github and your private ones on bitbucket you can use this tool with
@@ -2215,14 +2237,6 @@ about you can do that from the file menu.</p></div>
 <div class="paragraph"><p><span class="image">
 <img src="graphical_git/mac_github/repositories.png" alt="graphical_git/mac_github/repositories.png" title="Repositories Screen">
 </span></p></div>
-<div class="admonitionblock">
-<table><tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">TODO How to clone a repo?</td>
-</tr></table>
-</div>
 <div class="paragraph"><p>When you select a repository you are presented with a panel with four
 buttons on the side, that cover most of the options that you would
 want to do.</p></div>
@@ -2254,13 +2268,12 @@ file
 <img src="graphical_git/mac_github/settings.png" alt="graphical_git/mac_github/settings.png" title="Settings Screen">
 </span></p></div>
 <div class="paragraph"><p>You can also do a push or a pull from the client. to do a push hit
-command-P and a pull can be done with Command-Shift-P.</p></div>
+command-P and a pull can be done with Command-Shift-P. The default way
+to sync with a server from Github for mac is to use the "Sync" button
+which will do a push and a pull at once.</p></div>
 <div class="paragraph"><p>Nicely it will also work with other git clients (as you would expect)
-so you can commit changes with emacs and review them with the github
+so you can commit changes with eclipse and review them with the github
 client.</p></div>
-</div>
-<div class="sect3">
-<h4 id="_sourcetree">Sourcetree</h4>
 </div>
 </div>
 </div>
@@ -2269,7 +2282,7 @@ client.</p></div>
 <div id="footnotes"><hr></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2012-09-27 11:38:30 IST
+Last updated 2012-09-28 07:21:45 IST
 </div>
 </div>
 </body>
