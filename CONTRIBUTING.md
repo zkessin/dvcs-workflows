@@ -32,3 +32,13 @@ file
 
 Once you have done that add a link to the last line of the
 workflows.asciidoc document and send a pull request to user "zkessin"
+
+
+## Things that need doing
+
+There are a number of sections that need improving, if you want to
+write something here is a list of what needs doing.  
+
+* Tortoise GIT & HG in Graphical git
+* Screen Shots for Github for windows
+* 
