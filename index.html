@@ -1298,7 +1298,7 @@ for a good reason, github has been leading the effort to create new
 and innovative features for collaborative development. In addition
 github has  become the social network for programmers, and
 the central place for open source development, having taken that crown from
-soruceforge several years ago.</p></div>
+Soruceforge several years ago.</p></div>
 <div class="admonitionblock">
 <table><tr>
 <td class="icon">
@@ -1308,6 +1308,12 @@ soruceforge several years ago.</p></div>
 the writing of this book.</td>
 </tr></table>
 </div>
+<div class="paragraph"><p>Github has become a leader in the field for a number of reasons. But
+one of them is that they practice what they preach. Github is very
+much a distributed company with people all over the world. So before
+they release tools to the world, they have used them internally. In
+addition their internal use of these tools is not just the standard
+run threw QA testing but actual use when things have to get done.</p></div>
 <div class="sect3">
 <h4 id="_community">Community</h4>
 <div class="paragraph"><p>One of Github&#8217;s goals is to provide a place for community of
@@ -1317,6 +1323,7 @@ github is providing the "View Source" feature for the current decade.</p></div>
 <div class="paragraph"><p>If your goal is to build a public project github can form the natural
 home for your project. Placing it on github will allow potential users
 to find, follow and contribute to your project.</p></div>
+<div class="paragraph"><p>TODO: Expand</p></div>
 </div>
 <div class="sect3">
 <h4 id="_github_api_and_tools">Github API and tools</h4>
@@ -1325,18 +1332,12 @@ to create applications that integrate with github. So for example when
 building applications with PhoneGap it is possible to point PhoneGap
 at the correct github repository and then have PhoneGap simply pull
 the correct files from Github.</p></div>
-<div class="admonitionblock">
-<table><tr>
-<td class="icon">
-<div class="title">Note</div>
-</td>
-<td class="content">TODO Talk about other tools that plug into github here</td>
-</tr></table>
-</div>
+<div class="paragraph"><p>When you want to use the Github API you have to give the application
+permission to use it. So the API will also allow access to your
+private repositories.</p></div>
 <div class="paragraph"><p>Since this API is public there is no reason that a developer can use
 this to automate part of a work flow. for more details see
-<a href="github_api.asciidoc">Github API</a>
-NOTE: TODO FIX TO an internal link</p></div>
+<a href="#github_api">Using the Github API</a>.</p></div>
 </div>
 </div>
 <div class="sect2">
@@ -1369,8 +1370,9 @@ commits to a file.</p></div>
 should come as no shock that they charge for hosting. In order to
 build community public projects, like this ebook, are hosted for
 free. However private projects cost money to create. Bitbucket&#8217;s plans
-are priced by number of repositories.  For details of how much it
-costs check the github web site.</p></div>
+are priced by number of repositories. For details of what plans are
+available look at <a href="http://github.com/settings/billing">Github
+Billing</a> which will contain the current information.</p></div>
 <div class="paragraph"><p>At the time of this writing github charges $7 a month for up to five
 repositories. If that is not enough then there are a number of plans
 that range up to $50/month for 50 repositories. (If you need more
@@ -1451,10 +1453,16 @@ internal to your office or on a co-located or cloud host.</p></div>
 <div class="sect1">
 <h2 id="_work_flow_planning">Work flow Planning</h2>
 <div class="sectionbody">
-<div class="paragraph"><p>One of the great advantages of a DVCS, like git or hg,  is that there is not one
-prescribed work flow. Teams are free to figure out what will work best
-for them. The great disadvantage is that since there is not one
-prescribed work flow teams have to figure that out.</p></div>
+<div class="paragraph"><p>Git and HG solve part of the problem of how can a team work together
+and keep everything in sync. Which is to say that they solve the
+technical part of the problem. Of course these tools are only as good
+as the teams that use them. If used badly they can make a very well
+regimented mess where team members have histories of what they have
+done but trying to figure out how it all fits together is a
+nightmare.</p></div>
+<div class="paragraph"><p>To avoid this a team needs clear guidelines on how and when to
+integrate merges. Those guidelines along with the ideas of how to use
+github form a workflow.</p></div>
 <div class="paragraph"><p>To figure out what type of work flow several questions will have to be
 asked. There are several attributes of a project and a team that have
 to be asked as shown on this table.  Of course this table is only a
@@ -2071,7 +2079,7 @@ ship that code.</p></div>
 <div class="sect1">
 <h2 id="_using_the_github_api">Using the Github API</h2>
 <div class="sectionbody">
-<div class="paragraph"><p>Once you know how you want to setup a work flow you may wish to
+<div class="paragraph" id="github_api"><p>Once you know how you want to setup a work flow you may wish to
 automate some or all of it, to make the life of your team easier. This
 way you can provide a set of tools, which can be run from a command
 line, as plug ins for your favorite tool, or as part of a web
@@ -2282,7 +2290,7 @@ client.</p></div>
 <div id="footnotes"><hr></div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2012-09-28 07:21:45 IST
+Last updated 2012-09-28 12:53:48 IST
 </div>
 </div>
 </body>
