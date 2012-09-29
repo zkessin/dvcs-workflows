@@ -1,6 +1,15 @@
 
 = DVCS Work flows
 
+Collaboration is the key to successful projects. But creating  an
+effective collaboration is knowing how to integrate the contributions
+of team members. 
+
+There are many aspects to building a great collaboration, good people,
+good tools, and good procedures. The people part is the subject for
+other works but the tools and procedures will be covered here. 
+
+The tools are Git and Github or Mercurial (HG). 
 
 In the last few years many developers have moved from old style
 version control systems like CVS and SVN to new Distributed Version
