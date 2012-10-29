@@ -1,4 +1,4 @@
-== Using the Github API
+== Using the GitHub API
 [[github_api]]
 Once you know how you want to setup a work flow you may wish to
 automate some or all of it, to make the life of your team easier. This
@@ -11,19 +11,19 @@ that will do many of the standard git operations. So for example you
 could take some raw data, populate some templates, commit them into
 git and push them up to a server. 
 
-NOTE: TODO talk about github's web hosting
+NOTE: TODO talk about GitHub's web hosting
 
 However if you want to do something more complex then you may wish to
-use the github api which lets you access many of the features of
-github programmaticly instead of doing them via the web interface.
+use the GitHub api which lets you access many of the features of
+GitHub programmaticly instead of doing them via the web interface.
 
 NOTE: TODO a few more examples
 
 
-=== CI with github and Travis CI
+=== CI with GitHub and Travis CI
 
-If you are using github for hosting your product you may wish to do
-Continous Integration with your github repository. There are a number
+If you are using GitHub for hosting your product you may wish to do
+Continous Integration with your GitHub repository. There are a number
 of ways to do this but one easy hosted solution is to use Travis CI
 (http://travis-ci.org) which is a hosted CI solution that can run
 tests with a number of different languages.

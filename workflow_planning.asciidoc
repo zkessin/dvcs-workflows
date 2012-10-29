@@ -10,7 +10,7 @@ nightmare.
 
 To avoid this a team needs clear guidelines on how and when to
 integrate merges. Those guidelines along with the ideas of how to use
-github form a workflow. 
+GitHub form a workflow. 
 
 To figure out what type of work flow several questions will have to be
 asked. There are several attributes of a project and a team that have
@@ -54,7 +54,7 @@ common sense definition in terms of the evolution of a project.
 
 In addition different work flows will differ for public and private
 repositories. In this case a public repository is a project like this
-book or the linux kernel which anyone can access on github, bitbucket
+book or the linux kernel which anyone can access on GitHub, bitbucket
 or the like. Presumably they can also fork the project and submit pull
 requests (which may or may not be accepted by the project maintainer). 
 
