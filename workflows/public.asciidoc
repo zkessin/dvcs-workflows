@@ -17,11 +17,11 @@ you are trying to leverage the community at large to build
 something. This may be a book (like this one), or a open source
 software project or even a families collection of recipes. 
 
-In this case Github is a clear win just by its large community and its
+In this case GitHub is a clear win just by its large community and its
 tools to create and support community. 
 
 In terms of how to work it is pretty simple, the project leader will
-publish a repository on github and then announce it (normally via
+publish a repository on GitHub and then announce it (normally via
 twitter, blogs, mailing lists or other social media sites).
 
 At this point anyone else who is interested in the project will then
