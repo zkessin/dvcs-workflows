@@ -133,14 +133,14 @@ the same while the files are not is  1:10^48^. That is close enough to
 
 
 
-=== Github
+=== GitHub
 
-The use of git is greatly enhanced by link:http://github.com[Github] a
+The use of git is greatly enhanced by link:http://github.com[GitHub] a
 company that was founded in 2008 to facilitate using git to
-collaborate on software projects. Since the Github has grown to become
+collaborate on software projects. Since the GitHub has grown to become
 the most popular site for building collaborations in the open source
 software community.
 
-Github is itself a distributed company with its team spread out all
+GitHub is itself a distributed company with its team spread out all
 over the place so they not only develop the tools for working with
 distributed teams, they use them ever day. 

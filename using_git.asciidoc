@@ -31,7 +31,7 @@ makes most sense to you. In addition it is quite possible to use both
 the command line and one or more graphical tools.
 
 When building this book I have been using command line git tool, and
-the Emacs git interface and the github for mac program. In this case
+the Emacs git interface and the GitHub for mac program. In this case
 I used the emacs client for most commits and the GitHub for Mac for
 handling pushing and branches.  
 
@@ -41,8 +41,8 @@ To create a repository use the command *git init* which will
 initialize an empty git repository.  Once a repository has been
 created files can be added to it and all other operations performed.
 
-The other way to create a repository is by doing it with Github or
-other remote hosting service. Once you create the repository on Github
+The other way to create a repository is by doing it with GitHub or
+other remote hosting service. Once you create the repository on GitHub
 you then clone the repository onto your local computer.  
 
 
@@ -110,7 +110,7 @@ will force the user to figure it out.
 ===== Conventions for Branching
 
 Once again there is no one single convention for how to use
-branches. Some groups will use them more than others. At github they
+branches. Some groups will use them more than others. At GitHub they
 have the convention that anything in the *master* branch can be
 shipped at any time. 
 
@@ -227,28 +227,28 @@ on. You can push or pull from any local branch to any remote branch.
 
 However if you are more than three or four people and are not sitting
 all in one place you will probably want a more formal way to do
-this. To support this Github has created a formal idea of a "Pull
+this. To support this GitHub has created a formal idea of a "Pull
 Request" which is a formal way for a user to let another user know
 that there are changes to be integrated.
 
 If Ann has changes that she wishes Bob to take into his repository via
-Github (or bitbucket) she will go to the web site for her repository
-on Github and then select which branch contains her changes and of
+GitHub (or bitbucket) she will go to the web site for her repository
+on GitHub and then select which branch contains her changes and of
 course who she wishes to send the change request too.
 
-Bob will then be notified by Github that he has a pull request
-pending. Github notifications can be configured to run over email,
+Bob will then be notified by GitHub that he has a pull request
+pending. GitHub notifications can be configured to run over email,
 threw the web site or via the API or a mobile app.
 
 Bob will then have a chance to review the changes that Ann made and
 integrate them into his three or reject them.
 
 
-All of this can also be done via the Github API, but that is somewhat
+All of this can also be done via the GitHub API, but that is somewhat
 beyond the scope of this chapter.
 
 To illustrate let us use an example from the writing of this book. I
-have published this book on github and user +breskeby+ noticed a typo
+have published this book on GitHub and user +breskeby+ noticed a typo
 in one of these files. He had forked the repository and committed his
 change. You can see this in this graph. His change is the lower line
 in blue.

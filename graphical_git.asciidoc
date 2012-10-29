@@ -51,22 +51,22 @@ TODO *EXPAND*
 
 
 
-==== Github For windows
+==== GitHub For windows
 
 Github also has a great client for windows. Sporting a very nice
 Windows 8 Metro theme it can be found at
-link:http://windows.github.com[]. Github for windows will work with
+link:http://windows.github.com[]. GitHub for windows will work with
 Windows XP, Vista, 7 and 8. 
 
 While setting up GIT for windows can be a pain in the neck *Github for
 Windows* is an easy install. It installs a self contained git install
 that will not require anything else. 
 
-When you first install github for windows it will ask you for your
+When you first install GitHub for windows it will ask you for your
 github user and password. It will then setup an SSH key so that it can
-connect to github.
+connect to GitHub.
 
-If you install Github for windows and want to from time to time use a
+If you install GitHub for windows and want to from time to time use a
 command line then you can do that. It installs
 link:https://github.com/dahlbyk/posh-git[Posh Git] which is a command
 line git client that will also use the same ssh key and other settings
@@ -81,25 +81,25 @@ course download the command line git via homebrew (and probably
 should) but if you want to do some things with a graphical client
 there are a few free options. 
 
-==== Github For Mac
+==== GitHub For Mac
 
-The folks at Github, as part of their effort to improve the git
+The folks at GitHub, as part of their effort to improve the git
 ecosystem have their own Git client for the mac, You can download it
 from link:http://mac.github.com/[] or by going to
-link:http://www.github.com[] and selecting Github for Mac at the
-bottom of the page. Github for Mac works with Mac OS 10.7 (Lion) and
+link:http://www.github.com[] and selecting GitHub for Mac at the
+bottom of the page. GitHub for Mac works with Mac OS 10.7 (Lion) and
 later. 
 
-Note: you do not need to use github for mac only with Github, it will
+Note: you do not need to use GitHub for mac only with GitHub, it will
 work with any git repository. So if you host your public projects on
 github and your private ones on bitbucket you can use this tool with
-both. However some features may only work with github
+both. However some features may only work with GitHub
 
-The github mac client will of course do everything you would expect a
+The GitHub mac client will of course do everything you would expect a
 git client to do. It can commit changes, view history, create and
 merge branches and so on. 
 
-When you open the Github client you are presented with a panel that
+When you open the GitHub client you are presented with a panel that
 lists your repositories. You can select one to work with. If you need
 to create a new repository or open one that the client does not know
 about you can do that from the file menu. 
@@ -139,10 +139,10 @@ image:graphical_git/mac_github/settings.png[title="Settings Screen"]
 
 You can also do a push or a pull from the client. to do a push hit
 command-P and a pull can be done with Command-Shift-P. The default way
-to sync with a server from Github for mac is to use the "Sync" button
+to sync with a server from GitHub for mac is to use the "Sync" button
 which will do a push and a pull at once. 
 
 Nicely it will also work with other git clients (as you would expect)
-so you can commit changes with eclipse and review them with the github
+so you can commit changes with eclipse and review them with the GitHub
 client. 
 

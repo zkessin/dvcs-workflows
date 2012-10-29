@@ -9,5 +9,5 @@
 * link:dvcs_cloud_hosting.asciidoc[Cloud Hosting Services]
 * link:workflow_planning.asciidoc[WorkFlow Planning]
 * link:workflows.asciidoc[Workflows]
-* link:github_api.asciidoc[Using the Github API]
+* link:github_api.asciidoc[Using the GitHub API]
 * link:graphical_git.asciidoc[Graphical Git Frontends]

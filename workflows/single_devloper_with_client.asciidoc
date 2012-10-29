@@ -28,13 +28,13 @@ or the like. (Clearly this will change based on the exact nature of
 the consultant client relationship). 
 
 In this case the easiest way to structure the project is probably to
-open a repository at Github or Bitbucket and share it with the
+open a repository at GitHub or Bitbucket and share it with the
 client so that you both have read / write access, it would be possible
 to fork a repo for the client and send pull requests back and forth
 but it is probably more trouble than it is worth. 
 
 I find that when working in this small a group many of the
-notification features that are present in github or Bitbucket can be
+notification features that are present in GitHub or Bitbucket can be
 dealt with by simply picking up my phone and calling my client, or by
 using some form of IM. Of course that does not mean that project
 notifications are not useful, so much as that using them may not be

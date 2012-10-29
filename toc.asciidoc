@@ -22,6 +22,6 @@ include::workflow_planning.asciidoc[WorkFlow Planning]
 
 include::workflows.asciidoc[Workflows]
 
-include::github_api.asciidoc[Using the Github API]
+include::github_api.asciidoc[Using the GitHub API]
 
 include::graphical_git.asciidoc[Graphical Git Frontends]

@@ -24,17 +24,17 @@ small branches makes life simple.  For each new feature I create a new
 branch and do the development I want to do. When I have fished the
 feature I merge it back into the main branch.
 
-I tend to use Bitbucket for solo projects. Unlike github Bitbucket
+I tend to use Bitbucket for solo projects. Unlike GitHub Bitbucket
 allows you to have have unlimited private repositories. As I don't
-care about community in this case giving up github's features doesn't
+care about community in this case giving up GitHub's features doesn't
 bother me as I am working solo.
 
 I do however want to use a cloud host as I may be using the project
 from several computes. I may wish to have access to the files from my
 desktop, my laptop and a cloud server for deployment.
 
-One reason to prefer github is that many online build tools can take
-advantage of the github API.  SO example if I am building an
+One reason to prefer GitHub is that many online build tools can take
+advantage of the GitHub API.  SO example if I am building an
 application for mobile phones with PhoneGap then I may wish to use
 their API to build my application. {TODO link PhoneGap} this will
 enable me to take advantage of those build tools. In that case I could
@@ -60,7 +60,7 @@ One easy way to do this is to copy the various files and directories
 from your unix home directory to a custom subdirectory and then create
 symbolic links from the home directory. The new configuration
 directory can be  under version control with git or hg. In addition to
-keep a backup of these files you can then push them to github. 
+keep a backup of these files you can then push them to GitHub. 
 
 You can also keep the directory on dropbox, but that sometimes results
 in weird git errors if two computers try to update the repository at

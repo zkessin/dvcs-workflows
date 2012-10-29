@@ -24,7 +24,7 @@ should be informal.
 In this case the project probably does not have a formal leadership,
 and planning is probably done on a whiteboard. In addition a "Pull
 Request" is probably done by turning to your friend and saying "Hey
-grab my code" not via a formal Github Pull request. (though you can do
+grab my code" not via a formal GitHub Pull request. (though you can do
 that too if you wish). 
 
 On the plus side you have the advantage that everyone involved is
@@ -35,7 +35,7 @@ members simpler.
 In this case a deep system like the Linux Kernel team uses makes no
 sense what so ever. What we want here is a limited number of peers
 each of whom can pull from the others. This can be done with the hg
-server option if you are using HG, or by creating a project on Github
+server option if you are using HG, or by creating a project on GitHub
 and having everyone fork it. When it comes time to integrate code it
 will be as simple as doing a pull from the correct repository and
 branch. 
@@ -54,10 +54,10 @@ only his own computer and a way to share repositories. This can be
 done in several ways. First of all if you are using HG you can use the
 built in http server with the _hg --serve_ command. If you are using
 git there is not quite as easy an option, however you can use a cloud
-hosting service like github or even share the repositories with a file
+hosting service like GitHub or even share the repositories with a file
 server or dropbox.
 
-What would probably work is to setup a repository on github and give
+What would probably work is to setup a repository on GitHub and give
 everyone read/write access to it and push all changes there. 
 
 What will probably be more work is knowing when you have outgrown this
